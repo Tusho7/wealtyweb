@@ -7,12 +7,9 @@ const BlogCard = () => {
       <div className="blog-area ptb-70 pb-50">
         <div className="container">
           <div className="section-title">
-            <h2>The news from our blog</h2>
+            <h2>ფინანსური ბაზრების მიმოხილვა</h2>
             <div className="bar"></div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+         
           </div>
 
           <div className="row justify-content-center">
