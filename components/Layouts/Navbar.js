@@ -83,36 +83,8 @@ const Navbar = () => {
                     </Link>
                   </li>
 
-                  <li className="nav-item">
-                    <Link href="#" className="nav-link">
-                      Features <i className="fas fa-chevron-down"></i>
-                    </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/features-one/"
-                          className={`nav-link ${
-                            currentPath == "/features-one/" && "active"
-                          }`}
-                        >
-                          Features Style One
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/features-two/"
-                          className={`nav-link ${
-                            currentPath == "/features-two/" && "active"
-                          }`}
-                        >
-                          Features Style Two
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
+                 
+{/* 
                   <li className="nav-item">
                     <Link href="#">
                       Pages <i className="fas fa-chevron-down"></i>
@@ -220,7 +192,7 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
 
                   <li className="nav-item">
                     <Link
