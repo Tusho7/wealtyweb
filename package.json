@@ -1,0 +1,29 @@
+{
+    "name": "haiper",
+    "version": "2.3.0",
+    "description": "Haiper - Banking Finance & Payment Solutions React Next Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build && next export",
+        "start": "next start"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "dependencies": {
+        "animate.css": "^4.1.1",
+        "aos": "^2.3.4",
+        "axios": "^1.4.0",
+        "fslightbox-react": "^1.7.6",
+        "next": "^13.4.7",
+        "nodemailer": "^6.9.3",
+        "nodemailer-sendgrid-transport": "^0.2.0",
+        "react": "^18.2.0",
+        "react-accessible-accordion": "^5.0.0",
+        "react-dom": "^18.2.0",
+        "sass": "^1.63.6",
+        "sweetalert2": "^11.7.12",
+        "sweetalert2-react-content": "^5.0.7",
+        "swiper": "^9.0.5"
+    }
+}
