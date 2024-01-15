@@ -40,7 +40,7 @@ const NavbarThree = () => {
         <div className="haiper-nav">
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
-              <Link href="/" className="navbar-brand"> 
+              <Link href="/" className="navbar-brand">
                 <img src="/images/black-logo.png" alt="logo" />
               </Link>
 
@@ -64,79 +64,11 @@ const NavbarThree = () => {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      className="nav-link"
+                      href="/"
+                      className={`nav-link ${currentPath == "/" && "active"}`}
                     >
-                      Home <i className="fas fa-chevron-down"></i>
+                      Home
                     </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/"
-                          className={`nav-link ${
-                            currentPath == "/" && "active"
-                          }`}
-                        >
-                          Home Demo - 1
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index2/"
-                          className={`nav-link ${
-                            currentPath == "/index2/" && "active"
-                          }`}
-                        >
-                          Home Demo - 2
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index3/"
-                          className={`nav-link ${
-                            currentPath == "/index3/" && "active"
-                          }`}
-                        >
-                          Home Demo - 3
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index4/"
-                          className={`nav-link ${
-                            currentPath == "/index4/" && "active"
-                          }`}
-                        >
-                          Home Demo - 4
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index5/"
-                          className={`nav-link ${
-                            currentPath == "/index5/" && "active"
-                          }`}
-                        >
-                          Home Demo - 5
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index6/"
-                          className={`nav-link ${
-                            currentPath == "/index6/" && "active"
-                          }`}
-                        >
-                          Home Demo - 6
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
 
                   <li className="nav-item">
@@ -151,10 +83,7 @@ const NavbarThree = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link
-                      href="#"
-                      className="nav-link"
-                    >
+                    <Link href="#" className="nav-link">
                       Features <i className="fas fa-chevron-down"></i>
                     </Link>
 
@@ -217,9 +146,7 @@ const NavbarThree = () => {
 
                             <ul className="dropdown-menu">
                               <li className="nav-item">
-                                <Link href="#">
-                                  3rd Level
-                                </Link>
+                                <Link href="#">3rd Level</Link>
                               </li>
                             </ul>
                           </li>
