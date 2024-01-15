@@ -5,7 +5,7 @@ import { Navigation } from "swiper";
 const CustomersFeedback = () => {
   return (
     <>
-      <div className="feedback-area ptb-70 bg-f7fafd">
+      {/* <div className="feedback-area ptb-70 bg-f7fafd">
         <div className="container">
           <div className="section-title">
             <h2>What customers say about Us</h2>
@@ -122,7 +122,7 @@ const CustomersFeedback = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

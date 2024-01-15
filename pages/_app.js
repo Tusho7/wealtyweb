@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-          Haiper - Banking Finance & Payment Solutions React Next Template
+        TWC - The Wealth Capital
         </title>
       </Head>
 
