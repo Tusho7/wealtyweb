@@ -2,10 +2,48 @@ import React from "react";
 import RunningSlider from "./components/RunningSlider";
 const InformationArea = () => {
   const slides = [
-    <div key="1">Your content 1</div>,
-    <div key="2">Your content 2</div>,
-    <div key="3">Your content 3</div>,
+    {
+      proName: "FOREXCOM:SPXUSD",
+      title: "S&P 500",
+    },
+    {
+      proName: "FOREXCOM:NSXUSD",
+      title: "US 100",
+    },
+    {
+      proName: "FX_IDC:EURUSD",
+      title: "EUR to USD",
+    },
+    {
+      proName: "BITSTAMP:BTCUSD",
+      title: "Bitcoin",
+    },
+    {
+      proName: "BITSTAMP:ETHUSD",
+      title: "Ethereum",
+    },
+    {
+      proName: "FOREXCOM:SPXUSD",
+      title: "S&P 500",
+    },
+    {
+      proName: "FOREXCOM:NSXUSD",
+      title: "US 100",
+    },
+    {
+      proName: "FX_IDC:EURUSD",
+      title: "EUR to USD",
+    },
+    {
+      proName: "BITSTAMP:BTCUSD",
+      title: "Bitcoin",
+    },
+    {
+      proName: "BITSTAMP:ETHUSD",
+      title: "Ethereum",
+    },
   ];
+
   return (
     <>
       <div className="information-area">
@@ -13,7 +51,7 @@ const InformationArea = () => {
       <div className="container">
           <div className="row align-items-center"></div>
         </div>*/}
-        <RunningSlider />
+        <RunningSlider slides={slides} />
       </div>
     </>
   );

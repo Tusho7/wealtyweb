@@ -1,16 +1,17 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
+import "swiper/css/virtual";
 import SwiperCore from "swiper";
 import { Autoplay } from "swiper";
 SwiperCore.use([Autoplay]);
 
-const RunningSlider = () => {
+const RunningSlider = ({ slides }) => {
   return (
     <>
       <Swiper
         spaceBetween={10}
-        slidesPerView={3}
+        slidesPerView={4}
         loop={true}
         autoplay={{
           delay: 1000,
@@ -18,14 +19,14 @@ const RunningSlider = () => {
         }}
         speed={2000}
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        {slides.map((slide, index) => (
+          <SwiperSlide key={index} style={{ cursor: "pointer" }}>
+            <div className="slider-content">
+              {slide.proName}
+              {slide.title}
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );
