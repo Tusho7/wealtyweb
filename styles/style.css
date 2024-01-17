@@ -8350,4 +8350,10 @@ Footer Area CSS
 }
 .footer-area.footer-style-wrap .copyright-area p a:hover {
   color: #ee0979;
-} /*# sourceMappingURL=style.css.map */
+
+}
+
+.logo-image-size {
+  width: 95px;
+  height: 45px;
+}

@@ -18,7 +18,7 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo.png" alt="logo" />
+                    <img src="/images/logo.png" alt="logo" className="logo-image-size"/>
                   </Link>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

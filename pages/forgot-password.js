@@ -20,7 +20,7 @@ const ForgotPasswordPage = () => {
                     <div className="logo">
                       <Link href="/">
                          
-                          <img src="/images/black-logo.png" alt="image" />
+                          <img src="/images/logo.png" alt="image" className="logo-image-size"/>
                       
                       </Link>
                     </div>
