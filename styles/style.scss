@@ -4910,6 +4910,11 @@ Login Area CSS
         display: none;
     }
 }
+.login-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
 .login-content {
     height: 100vh;
     
@@ -7394,8 +7399,3 @@ Footer Area CSS
     }
 }
 
-.login-container{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-  }
