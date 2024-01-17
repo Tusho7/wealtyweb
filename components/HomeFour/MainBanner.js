@@ -24,9 +24,9 @@ const MainBanner = () => {
                   your business.
                 </p>
 
-                <Link href="/sign-up" className="btn btn-primary">
+                {/* <Link href="/sign-up" className="btn btn-primary">
                   Create your account
-                </Link>
+                </Link> */}
               </div>
             </div>
 

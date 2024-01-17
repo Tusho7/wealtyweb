@@ -68,9 +68,9 @@ const Footer = () => {
                   <li>
                     <Link href="#">სერვისები</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/features-one">მახასიათებლები</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/pricing">ჩვენი ფასები</Link>
                   </li>
