@@ -207,10 +207,11 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link href="#">
-                      ბლოგი <i className="fas fa-chevron-down"></i>
+                      ბლოგი 
+                      {/* <i className="fas fa-chevron-down"></i> */}
                     </Link>
 
-                    <ul className="dropdown-menu">
+                    {/* <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
                           href="/blog-one/"
@@ -243,7 +244,7 @@ const Navbar = () => {
                           Blog Details
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
 
                   <li className="nav-item">
