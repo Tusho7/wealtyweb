@@ -67,7 +67,7 @@ const NavbarThree = () => {
                       href="/"
                       className={`nav-link ${currentPath == "/" && "active"}`}
                     >
-                      Home
+                      მთავარი
                     </Link>
                   </li>
 
@@ -78,7 +78,7 @@ const NavbarThree = () => {
                         currentPath == "/about-us/" && "active"
                       }`}
                     >
-                      About Us
+                      ჩვენ შესახებ
                     </Link>
                   </li>
 
@@ -89,13 +89,13 @@ const NavbarThree = () => {
                         currentPath == "/pricing/" && "active"
                       }`}
                     >
-                      Pricing
+                      ფასები
                     </Link>
                   </li>
 
                   <li className="nav-item">
                     <Link href="#">
-                      Blog <i className="fas fa-chevron-down"></i>
+                      ბლოგი <i className="fas fa-chevron-down"></i>
                     </Link>
 
                     <ul className="dropdown-menu">
@@ -141,7 +141,7 @@ const NavbarThree = () => {
                         currentPath == "/contact/" && "active"
                       }`}
                     >
-                      Contact
+                      კონტაქტი
                     </Link>
                   </li>
                 </ul>
@@ -149,7 +149,7 @@ const NavbarThree = () => {
 
               <div className="others-options">
                 <Link href="/login" className="login-btn">
-                  <i className="flaticon-user"></i> Login
+                  <i className="flaticon-user"></i> შესვლა
                 </Link>
               </div>
             </nav>

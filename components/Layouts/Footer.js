@@ -63,19 +63,19 @@ const Footer = () => {
 
                 <ul className="list">
                   <li>
-                    <Link href="/about-us">About Us</Link>
+                    <Link href="/about-us">ჩვენ შესახებ</Link>
                   </li>
                   <li>
-                    <Link href="#">Services</Link>
+                    <Link href="#">სერვისები</Link>
                   </li>
                   <li>
-                    <Link href="/features-one">Features</Link>
+                    <Link href="/features-one">მახასიათებლები</Link>
                   </li>
                   <li>
-                    <Link href="/pricing">Our Pricing</Link>
+                    <Link href="/pricing">ჩვენი ფასები</Link>
                   </li>
                   <li>
-                    <Link href="/blog-one">Latest News</Link>
+                    <Link href="/blog-one">სიახლეები</Link>
                   </li>
                 </ul>
               </div>
@@ -88,23 +88,25 @@ const Footer = () => {
               data-aos-duration="1200"
             >
               <div className="single-footer-widget">
-                <h3>Support</h3>
+                <h3>მხარდაჭერა</h3>
 
                 <ul className="list">
                   <li>
                     <Link href="/faq">FAQ's</Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
+                    <Link href="/privacy-policy">
+                      Კონფიდენციალურობის პოლიტიკა
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/terms-condition">Terms & Condition</Link>
+                    <Link href="/terms-condition">წესები და პირობები</Link>
                   </li>
                   <li>
-                    <Link href="#">Community</Link>
+                    <Link href="#">საზოგადოება</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href="/contact">კონტაქტი</Link>
                   </li>
                 </ul>
               </div>
