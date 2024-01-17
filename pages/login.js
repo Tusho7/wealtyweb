@@ -5,12 +5,12 @@ const LoginPage = () => {
   return (
     <>
       <div className="login-area">
-        <div className="row m-0">
-          <div className="col-lg-6 col-md-12 p-0">
+        <div className="login-container">
+          {/* <div className="col-lg-6 col-md-12 p-0">
             <div className="login-image">
               <img src="/images/login-bg.jpg" alt="image" />
             </div>
-          </div>
+          </div> */}
 
           <div className="col-lg-6 col-md-12 p-0">
             <div className="login-content">
@@ -19,18 +19,16 @@ const LoginPage = () => {
                   <div className="login-form">
                     <div className="logo">
                       <Link href="/">
-                      
-                          <img src="/images/black-logo.png" alt="image" />
-                 
+                        <img src="/images/black-logo.png" alt="image" />
                       </Link>
                     </div>
 
-                    <h3>Welcome back</h3>
+                    <h3>ანგარიშზე შესვლა</h3>
                     <p>
-                      New to Haiper?{" "}
-                      <Link href="/sign-up">
+                      {/* New to Haiper?{" "} */}
+                      {/* <Link href="/sign-up">
                         Sign up
-                      </Link>
+                      </Link> */}
                     </p>
 
                     <form>
@@ -39,7 +37,7 @@ const LoginPage = () => {
                           type="email"
                           name="email"
                           id="email"
-                          placeholder="Your email address"
+                          placeholder="მომხმარებელი"
                           className="form-control"
                         />
                       </div>
@@ -49,16 +47,18 @@ const LoginPage = () => {
                           type="password"
                           name="password"
                           id="password"
-                          placeholder="Your password"
+                          placeholder="პაროლი"
                           className="form-control"
                         />
                       </div>
 
-                      <button type="submit" className="btn btn-primary">
-                        Login
-                      </button>
+                      <Link href="/profile">
+                        <button type="submit" className="btn btn-primary">
+                          შესვლა
+                        </button>
+                      </Link>
 
-                      <div className="forgot-password">
+                      {/* <div className="forgot-password">
                         <Link href="/forgot-password">
                           Forgot Password?
                         </Link>
@@ -72,7 +72,7 @@ const LoginPage = () => {
                         <button type="submit" className="google">
                           <i className="fab fa-google"></i> Connect with Google
                         </button>
-                      </div>
+                      </div> */}
                     </form>
                   </div>
                 </div>
