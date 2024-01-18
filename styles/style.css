@@ -3684,21 +3684,47 @@ Homepage Slider Area CSS
 =================================================*/
 .information-area {
   padding-top: 150px;
+  margin: 0 150px;
 }
-.swiper {
-  margin: 0 300px;
+
+.horizontalScroll {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 50px; /* Adjust padding as needed */
 }
-.swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.scrollContent {
+  display: inline-flex;
+  animation: scroll 15s linear infinite;
 }
-.slider-content {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.contentItem {
+  min-width: 200px; /* Adjust item width as needed */
+  border: 1px solid #9e1e1e;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
 }
+
+.horizontalScroll:hover > div {
+  -webkit-animation-play-state: paused !important;
+  -moz-animation-play-state: paused !important;
+  -o-animation-play-state: paused !important;
+  animation-play-state: paused !important;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/************RESPONSIVE INFORMATION-AREA************/
 
 /*================================================
 Pricing Area CSS
@@ -8350,7 +8376,6 @@ Footer Area CSS
 }
 .footer-area.footer-style-wrap .copyright-area p a:hover {
   color: #ee0979;
-
 }
 
 .logo-image-size {
