@@ -73,7 +73,7 @@ a {
   outline: 0 !important;
 }
 a:hover {
-  color: #9300FC;
+  color: #9300fc;
   text-decoration: none;
 }
 
@@ -106,7 +106,18 @@ button {
   background-color: #f6f4f8;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   color: #212529;
@@ -136,7 +147,8 @@ p:last-child {
   position: relative;
   z-index: 1;
 }
-.btn.disabled, .btn:disabled {
+.btn.disabled,
+.btn:disabled {
   opacity: 1;
 }
 
@@ -152,7 +164,11 @@ p:last-child {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   border-radius: 4px;
   transition: 0.5s;
 }
@@ -170,16 +186,19 @@ p:last-child {
   opacity: 0;
   visibility: hidden;
 }
-.btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover,
+.btn-primary:focus {
   background-color: transparent !important;
   color: #ffffff !important;
   box-shadow: unset !important;
 }
-.btn-primary:hover::before, .btn-primary:focus::before {
+.btn-primary:hover::before,
+.btn-primary:focus::before {
   opacity: 0;
   visibility: hidden;
 }
-.btn-primary:hover::after, .btn-primary:focus::after {
+.btn-primary:hover::after,
+.btn-primary:focus::after {
   opacity: 1;
   visibility: visible;
 }
@@ -240,7 +259,7 @@ p:last-child {
 }
 .form-control:focus {
   box-shadow: unset !important;
-  border-color: #9300FC;
+  border-color: #9300fc;
 }
 
 /*================================================
@@ -251,7 +270,11 @@ Preloader Area CSS
   width: 100%;
   height: 100%;
   z-index: 99999;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   top: 0;
   left: 0;
 }
@@ -377,8 +400,10 @@ Navbar Area CSS
   margin-left: 15px;
   margin-right: 15px;
 }
-.haiper-nav .navbar .navbar-nav .nav-item a:hover, .haiper-nav .navbar .navbar-nav .nav-item a:focus, .haiper-nav .navbar .navbar-nav .nav-item a.active {
-  color: #9300FC;
+.haiper-nav .navbar .navbar-nav .nav-item a:hover,
+.haiper-nav .navbar .navbar-nav .nav-item a:focus,
+.haiper-nav .navbar .navbar-nav .nav-item a.active {
+  color: #9300fc;
 }
 .haiper-nav .navbar .navbar-nav .nav-item a i {
   font-size: 10px;
@@ -392,8 +417,9 @@ Navbar Area CSS
 .haiper-nav .navbar .navbar-nav .nav-item:first-child a {
   margin-left: 0;
 }
-.haiper-nav .navbar .navbar-nav .nav-item:hover a, .haiper-nav .navbar .navbar-nav .nav-item.active a {
-  color: #9300FC;
+.haiper-nav .navbar .navbar-nav .nav-item:hover a,
+.haiper-nav .navbar .navbar-nav .nav-item.active a {
+  color: #9300fc;
 }
 .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu {
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
@@ -427,8 +453,10 @@ Navbar Area CSS
   font-size: 15px;
   font-weight: 500;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #9300FC;
+.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover,
+.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus,
+.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #9300fc;
 }
 .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   left: -100%;
@@ -436,116 +464,626 @@ Navbar Area CSS
   opacity: 0;
   visibility: hidden;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: -100%;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: -100%;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: -100%;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: -100%;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: -100%;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
 .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #9300FC;
+  color: #9300fc;
 }
-.haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+.haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
@@ -569,7 +1107,7 @@ Navbar Area CSS
   color: #eae563;
 }
 .haiper-nav .navbar .others-options .login-btn:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 
 .navbar-area {
@@ -607,80 +1145,533 @@ Navbar Area CSS
 .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item a {
   color: #212529;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item a.active {
-  color: #9300FC;
+.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item a:hover,
+.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item a:focus,
+.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item a.active {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item:hover a, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item.active a {
-  color: #9300FC;
+.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item:hover a,
+.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item.active a {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.is-sticky
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
 .navbar-area.is-sticky .haiper-nav .navbar .others-options .login-btn {
   color: #212529;
 }
 .navbar-area.is-sticky .haiper-nav .navbar .others-options .login-btn i {
-  color: #9300FC;
+  color: #9300fc;
 }
 .navbar-area.is-sticky .haiper-nav .navbar .others-options .login-btn:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 .navbar-area.navbar-style-two .navbar-brand img {
   display: block !important;
@@ -688,71 +1679,534 @@ Navbar Area CSS
 .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item a {
   color: #212529;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item a:focus, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item a.active {
-  color: #9300FC;
+.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item a:hover,
+.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item a:focus,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item:hover a, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item.active a {
-  color: #9300FC;
+.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item:hover a,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-style-two
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
 .navbar-area.navbar-style-two .haiper-nav .others-options .login-btn {
   color: #212529;
@@ -761,7 +2215,7 @@ Navbar Area CSS
   color: #212529;
 }
 .navbar-area.navbar-style-two .haiper-nav .others-options .login-btn:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 
 /* Navbar toggler */
@@ -940,7 +2394,11 @@ Main Banner Area CSS
 .money-transfer-form form .form-group {
   margin-bottom: 15px;
   position: relative;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   padding: 36px 10px 12px 15px;
   border-radius: 5px;
 }
@@ -1025,7 +2483,11 @@ Main Banner Area CSS
 .money-transfer-form form .currency-info .bar {
   height: 100%;
   width: 2px;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   position: absolute;
   left: 0;
   top: 50%;
@@ -1039,7 +2501,11 @@ Main Banner Area CSS
   position: absolute;
   top: -1px;
   left: -2px;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
 }
 .money-transfer-form form .currency-info .bar::after {
   width: 6px;
@@ -1049,7 +2515,11 @@ Main Banner Area CSS
   position: absolute;
   bottom: -1px;
   left: -2px;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
 }
 .money-transfer-form form .currency-info span {
   display: inline-block;
@@ -1079,7 +2549,11 @@ Main Banner Area CSS
   background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
 }
 .money-transfer-form form .btn::after {
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
 }
 .money-transfer-form form .terms-info {
   margin-top: 15px;
@@ -1092,7 +2566,7 @@ Main Banner Area CSS
   color: #212529;
 }
 .money-transfer-form form .terms-info p a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 
 .banner-section {
@@ -1189,7 +2663,11 @@ Main Banner Area CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   border-radius: 30px;
   transition: 0.5s;
   opacity: 0;
@@ -1230,19 +2708,23 @@ Main Banner Area CSS
   background-repeat: no-repeat;
 }
 
-.main-banner-slider .swiper-button-next, .main-banner-slider .swiper-button-prev {
+.main-banner-slider .swiper-button-next,
+.main-banner-slider .swiper-button-prev {
   background-color: #fff;
   width: 40px;
   height: 40px;
 }
-.main-banner-slider .swiper-button-next::after, .main-banner-slider .swiper-button-prev::after {
-  color: #9300FC;
+.main-banner-slider .swiper-button-next::after,
+.main-banner-slider .swiper-button-prev::after {
+  color: #9300fc;
   font-size: 20px;
 }
-.main-banner-slider .swiper-button-next:hover, .main-banner-slider .swiper-button-prev:hover {
-  background-color: #9300FC;
+.main-banner-slider .swiper-button-next:hover,
+.main-banner-slider .swiper-button-prev:hover {
+  background-color: #9300fc;
 }
-.main-banner-slider .swiper-button-next:hover::after, .main-banner-slider .swiper-button-prev:hover::after {
+.main-banner-slider .swiper-button-next:hover::after,
+.main-banner-slider .swiper-button-prev:hover::after {
   color: #fff;
 }
 
@@ -1256,7 +2738,7 @@ About Area CSS
   display: block;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #9300FC;
+  color: #9300fc;
   font-size: 12.5px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -1311,7 +2793,11 @@ About Area CSS
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   z-index: -1;
   border-radius: 50%;
   transition: 0.5s;
@@ -1322,7 +2808,8 @@ About Area CSS
 }
 
 @keyframes ripple {
-  0%, 35% {
+  0%,
+  35% {
     transform: scale(0);
     opacity: 1;
   }
@@ -1364,7 +2851,7 @@ Featured Boxes Area CSS
 }
 .single-featured-box .icon {
   transition: 0.4s;
-  color: #9300FC;
+  color: #9300fc;
   position: absolute;
   top: 40px;
   left: 50%;
@@ -1403,7 +2890,7 @@ Featured Boxes Area CSS
   opacity: 0;
   visibility: hidden;
   transition: 0.6;
-  color: #9300FC;
+  color: #9300fc;
   font-size: 15px;
   font-weight: 400;
 }
@@ -1415,7 +2902,11 @@ Featured Boxes Area CSS
   width: 0;
   transition: 0.5s;
   height: 1px;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
 }
 .single-featured-box .read-more-btn:hover::before {
   width: 100%;
@@ -1462,7 +2953,8 @@ Services Area CSS
   overflow: hidden;
 }
 
-.services-area .container-fluid, .invoicing-area .container-fluid {
+.services-area .container-fluid,
+.invoicing-area .container-fluid {
   max-width: 1920px;
 }
 
@@ -1483,7 +2975,7 @@ Services Area CSS
   display: block;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #9300FC;
+  color: #9300fc;
   font-size: 12.5px;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -1557,7 +3049,7 @@ Services Area CSS
   position: absolute;
   left: 15px;
   top: 9px;
-  color: #9300FC;
+  color: #9300fc;
   transition: 0.5s;
 }
 .overview-box .overview-content .content .services-list li span i::before {
@@ -1572,7 +3064,11 @@ Services Area CSS
   width: 0;
   height: 100%;
   border-radius: 5px;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   transition: 0.5s;
 }
 .overview-box .overview-content .content .services-list li span:hover {
@@ -1682,7 +3178,11 @@ Comparisons Area CSS
   text-align: center;
 }
 .comparisons-table table thead tr {
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%) !important;
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  ) !important;
 }
 .comparisons-table table thead th {
   vertical-align: middle;
@@ -1715,7 +3215,7 @@ Comparisons Area CSS
   height: 20px;
   line-height: 17px;
   border-radius: 100%;
-  background-color: #9300FC;
+  background-color: #9300fc;
   color: #ffffff;
   display: block;
   margin: 0 auto;
@@ -1723,22 +3223,28 @@ Comparisons Area CSS
 .comparisons-table table tbody td i::before {
   font-size: 8px;
 }
-.comparisons-table table tbody tr:nth-child(1) td i, .comparisons-table table tbody tr:nth-child(8) td i {
+.comparisons-table table tbody tr:nth-child(1) td i,
+.comparisons-table table tbody tr:nth-child(8) td i {
   background-color: #facd60;
 }
-.comparisons-table table tbody tr:nth-child(2) td i, .comparisons-table table tbody tr:nth-child(9) td i {
+.comparisons-table table tbody tr:nth-child(2) td i,
+.comparisons-table table tbody tr:nth-child(9) td i {
   background-color: #44cd6f;
 }
-.comparisons-table table tbody tr:nth-child(3) td i, .comparisons-table table tbody tr:nth-child(10) td i {
+.comparisons-table table tbody tr:nth-child(3) td i,
+.comparisons-table table tbody tr:nth-child(10) td i {
   background-color: #fd6c28;
 }
-.comparisons-table table tbody tr:nth-child(5) td i, .comparisons-table table tbody tr:nth-child(12) td i {
+.comparisons-table table tbody tr:nth-child(5) td i,
+.comparisons-table table tbody tr:nth-child(12) td i {
   background-color: #1ac0c6;
 }
-.comparisons-table table tbody tr:nth-child(6) td i, .comparisons-table table tbody tr:nth-child(13) td i {
+.comparisons-table table tbody tr:nth-child(6) td i,
+.comparisons-table table tbody tr:nth-child(13) td i {
   background-color: #f45271;
 }
-.comparisons-table table tbody tr:nth-child(7) td i, .comparisons-table table tbody tr:nth-child(14) td i {
+.comparisons-table table tbody tr:nth-child(7) td i,
+.comparisons-table table tbody tr:nth-child(14) td i {
   background-color: #fd6d27;
 }
 
@@ -1771,7 +3277,7 @@ Features Area CSS
   line-height: 65px;
   background-color: rgba(231, 70, 69, 0.2);
   border-radius: 50%;
-  color: #9300FC;
+  color: #9300fc;
   transition: 0.5s;
   margin-bottom: 20px;
 }
@@ -1816,7 +3322,11 @@ Features Area CSS
   z-index: -1;
   width: 0;
   height: 100%;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   border-radius: 5px;
   transition: 0.5s;
 }
@@ -1828,7 +3338,7 @@ Features Area CSS
 }
 .single-features-box:hover .icon {
   transform: rotate(360deg);
-  color: #9300FC;
+  color: #9300fc;
   background-color: #ffffff;
 }
 .single-features-box:hover h3 {
@@ -1867,7 +3377,7 @@ Features Area CSS
   line-height: 65px;
   background-color: rgba(231, 70, 69, 0.2);
   border-radius: 50%;
-  color: #9300FC;
+  color: #9300fc;
   transition: 0.5s;
   position: absolute;
   left: 25px;
@@ -1914,7 +3424,11 @@ Features Area CSS
   z-index: -1;
   width: 2px;
   height: 100%;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   transition: 0.5s;
 }
 .features-box:hover {
@@ -1925,7 +3439,7 @@ Features Area CSS
 }
 .features-box:hover .icon {
   transform: rotate(360deg);
-  color: #9300FC;
+  color: #9300fc;
   background-color: #ffffff;
 }
 .features-box:hover h3 {
@@ -2016,7 +3530,7 @@ Team Area CSS
   display: inline-block;
 }
 .single-team-member .member-image .social li a i {
-  background-color: #9300FC;
+  background-color: #9300fc;
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -2028,7 +3542,7 @@ Team Area CSS
 }
 .single-team-member .member-image .social li a i:hover {
   background: #ffffff;
-  color: #9300FC;
+  color: #9300fc;
 }
 .single-team-member .member-content {
   padding: 25px;
@@ -2181,7 +3695,7 @@ Information Area CSS
 
 .scrollContent {
   display: inline-flex;
-  animation: scroll 15s linear infinite;
+  animation: scroll 20s linear infinite;
 }
 
 .contentItem {
@@ -2228,7 +3742,14 @@ Pricing Area CSS
   position: relative;
 }
 .single-pricing-box .pricing-header::before {
-  background: linear-gradient(to right top, #a3a3a3, #9a9a9a, #909090, #878787, #7e7e7e);
+  background: linear-gradient(
+    to right top,
+    #a3a3a3,
+    #9a9a9a,
+    #909090,
+    #878787,
+    #7e7e7e
+  );
   content: "";
   position: absolute;
   left: 0;
@@ -2290,7 +3811,14 @@ Pricing Area CSS
   border-radius: 30px;
 }
 .single-pricing-box .buy-btn .btn-primary::before {
-  background: linear-gradient(to right top, #a3a3a3, #9a9a9a, #909090, #878787, #7e7e7e);
+  background: linear-gradient(
+    to right top,
+    #a3a3a3,
+    #9a9a9a,
+    #909090,
+    #878787,
+    #7e7e7e
+  );
   border-radius: 30px;
 }
 .single-pricing-box .pricing-features {
@@ -2307,7 +3835,7 @@ Pricing Area CSS
   margin-bottom: 0;
 }
 .single-pricing-box .pricing-features li i {
-  color: #9300FC;
+  color: #9300fc;
   font-size: 12px;
   position: absolute;
   right: 0;
@@ -2318,7 +3846,11 @@ Pricing Area CSS
   font-size: 12px;
 }
 .single-pricing-box:hover .pricing-header::after {
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   content: "";
   position: absolute;
   left: 0;
@@ -2328,13 +3860,21 @@ Pricing Area CSS
   transition: 0.5s;
 }
 .single-pricing-box:hover .buy-btn .btn-primary::after {
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   opacity: 1;
   visibility: visible;
 }
 
 .single-pricing-box.active .pricing-header::after {
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   content: "";
   position: absolute;
   left: 0;
@@ -2344,7 +3884,11 @@ Pricing Area CSS
   transition: 0.5s;
 }
 .single-pricing-box.active .buy-btn .btn-primary::before {
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   content: "";
   position: absolute;
   left: 0;
@@ -2379,7 +3923,7 @@ FunFacts Area CSS
   text-align: center;
 }
 .funfact h3 {
-  color: #9300FC;
+  color: #9300fc;
   margin-bottom: 2px;
   font-family: "Roboto", sans-serif;
   font-size: 35px;
@@ -2467,7 +4011,8 @@ Feedback Area CSS
   font-weight: 300;
   font-size: 13px;
 }
-.feedback-slides .swiper-button-prev, .feedback-slides .swiper-button-next {
+.feedback-slides .swiper-button-prev,
+.feedback-slides .swiper-button-next {
   background-color: #cbc6c8;
   width: 40px;
   height: 40px;
@@ -2475,14 +4020,17 @@ Feedback Area CSS
   margin: 0;
   left: 0;
 }
-.feedback-slides .swiper-button-prev::after, .feedback-slides .swiper-button-next::after {
-  color: #9300FC;
+.feedback-slides .swiper-button-prev::after,
+.feedback-slides .swiper-button-next::after {
+  color: #9300fc;
   font-size: 20px;
 }
-.feedback-slides .swiper-button-prev:hover, .feedback-slides .swiper-button-next:hover {
-  background-color: #9300FC;
+.feedback-slides .swiper-button-prev:hover,
+.feedback-slides .swiper-button-next:hover {
+  background-color: #9300fc;
 }
-.feedback-slides .swiper-button-prev:hover::after, .feedback-slides .swiper-button-next:hover::after {
+.feedback-slides .swiper-button-prev:hover::after,
+.feedback-slides .swiper-button-next:hover::after {
   color: #fff;
 }
 .feedback-slides .swiper-button-next {
@@ -2515,8 +4063,9 @@ Ready To Talk Area CSS
 .ready-to-talk-content .btn-primary::after {
   background: #ffffff;
 }
-.ready-to-talk-content .btn-primary:hover, .ready-to-talk-content .btn-primary:focus {
-  color: #9300FC !important;
+.ready-to-talk-content .btn-primary:hover,
+.ready-to-talk-content .btn-primary:focus {
+  color: #9300fc !important;
 }
 .ready-to-talk-content span a {
   margin-left: 15px;
@@ -2539,7 +4088,7 @@ Partner Area CSS
   display: block;
   position: relative;
   overflow: hidden;
-  background-color: #F4F7FC;
+  background-color: #f4f7fc;
   border-radius: 5px;
   padding: 20px;
 }
@@ -2666,7 +4215,11 @@ App Download Area CSS
   height: 100%;
   border-radius: 3px;
   z-index: -1;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   transition: 0.5s;
 }
 .app-download-content .btn-box .app-store-btn::after {
@@ -2727,7 +4280,11 @@ App Download Area CSS
   height: 100%;
   border-radius: 3px;
   z-index: -1;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
@@ -2762,7 +4319,11 @@ Account Create Area CSS
 .account-create-area {
   position: relative;
   z-index: 1;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -2806,7 +4367,8 @@ Account Create Area CSS
 .account-create-content .btn-primary::after {
   background: #ffffff;
 }
-.account-create-content .btn-primary:hover, .account-create-content .btn-primary:focus {
+.account-create-content .btn-primary:hover,
+.account-create-content .btn-primary:focus {
   color: #212529 !important;
 }
 
@@ -2873,12 +4435,12 @@ ul.entry-meta li a {
   text-transform: capitalize;
 }
 ul.entry-meta li a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 ul.entry-meta li i {
   padding-right: 6px;
   font-style: normal;
-  color: #9300FC;
+  color: #9300fc;
 }
 
 /*================================================
@@ -2912,10 +4474,10 @@ Blog Details Area CSS
   color: #57647c;
 }
 .blog-details .article-content .entry-meta ul li a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 .blog-details .article-content .entry-meta ul li i {
-  color: #9300FC;
+  color: #9300fc;
   margin-right: 2px;
 }
 .blog-details .article-content .entry-meta ul li::before {
@@ -2925,7 +4487,7 @@ Blog Details Area CSS
   right: -15px;
   width: 6px;
   height: 1px;
-  background: #9300FC;
+  background: #9300fc;
 }
 .blog-details .article-content .entry-meta ul li:last-child {
   margin-right: 0;
@@ -2974,7 +4536,7 @@ Blog Details Area CSS
   font-weight: 300;
 }
 .blog-details .article-content .article-features-list li::before {
-  background: #9300FC;
+  background: #9300fc;
   height: 7px;
   width: 7px;
   content: "";
@@ -3016,7 +4578,7 @@ Blog Details Area CSS
   margin-left: 5px;
 }
 .blog-details .article-footer .article-tags a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 .blog-details .article-footer .article-share {
   flex: 0 0 50%;
@@ -3045,10 +4607,11 @@ Blog Details Area CSS
 }
 .blog-details .article-footer .article-share .social li a:hover {
   color: #ffffff;
-  background-color: #9300FC;
+  background-color: #9300fc;
 }
 
-blockquote, .blockquote {
+blockquote,
+.blockquote {
   overflow: hidden;
   background-color: #fafafa;
   padding: 50px !important;
@@ -3059,7 +4622,8 @@ blockquote, .blockquote {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-blockquote p, .blockquote p {
+blockquote p,
+.blockquote p {
   color: #212529;
   line-height: 1.6;
   margin-bottom: 0 !important;
@@ -3067,10 +4631,12 @@ blockquote p, .blockquote p {
   font-weight: 500;
   font-size: 24px !important;
 }
-blockquote cite, .blockquote cite {
+blockquote cite,
+.blockquote cite {
   display: none;
 }
-blockquote::before, .blockquote::before {
+blockquote::before,
+.blockquote::before {
   color: #efefef;
   content: "\f10d";
   position: absolute;
@@ -3092,7 +4658,8 @@ blockquote::before, .blockquote::before {
   margin-bottom: 25px;
   font-size: 23px;
 }
-.comments-area ol, .comments-area ul {
+.comments-area ol,
+.comments-area ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -3128,8 +4695,8 @@ blockquote::before, .blockquote::before {
 }
 .comments-area .comment-body .reply a:hover {
   color: #ffffff;
-  background-color: #9300FC;
-  border-color: #9300FC;
+  background-color: #9300fc;
+  border-color: #9300fc;
 }
 .comments-area .comment-meta {
   margin-bottom: 0.8em;
@@ -3166,7 +4733,7 @@ blockquote::before, .blockquote::before {
   color: #57647c;
 }
 .comments-area .comment-metadata a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 .comments-area .comment-content p {
   font-size: 14px;
@@ -3175,7 +4742,10 @@ blockquote::before, .blockquote::before {
   margin-bottom: 0;
   font-size: 18px;
 }
-.comments-area .comment-respond .comment-reply-title #cancel-comment-reply-link {
+.comments-area
+  .comment-respond
+  .comment-reply-title
+  #cancel-comment-reply-link {
   font-size: 15px;
   display: inline-block;
 }
@@ -3205,7 +4775,19 @@ blockquote::before, .blockquote::before {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
-.comments-area .comment-respond input[type=date], .comments-area .comment-respond input[type=time], .comments-area .comment-respond input[type=datetime-local], .comments-area .comment-respond input[type=week], .comments-area .comment-respond input[type=month], .comments-area .comment-respond input[type=text], .comments-area .comment-respond input[type=email], .comments-area .comment-respond input[type=url], .comments-area .comment-respond input[type=password], .comments-area .comment-respond input[type=search], .comments-area .comment-respond input[type=tel], .comments-area .comment-respond input[type=number], .comments-area .comment-respond textarea {
+.comments-area .comment-respond input[type="date"],
+.comments-area .comment-respond input[type="time"],
+.comments-area .comment-respond input[type="datetime-local"],
+.comments-area .comment-respond input[type="week"],
+.comments-area .comment-respond input[type="month"],
+.comments-area .comment-respond input[type="text"],
+.comments-area .comment-respond input[type="email"],
+.comments-area .comment-respond input[type="url"],
+.comments-area .comment-respond input[type="password"],
+.comments-area .comment-respond input[type="search"],
+.comments-area .comment-respond input[type="tel"],
+.comments-area .comment-respond input[type="number"],
+.comments-area .comment-respond textarea {
   display: block;
   width: 100%;
   background-color: #fafafa;
@@ -3216,8 +4798,20 @@ blockquote::before, .blockquote::before {
   font-size: 14px;
   height: 45px;
 }
-.comments-area .comment-respond input[type=date]:focus, .comments-area .comment-respond input[type=time]:focus, .comments-area .comment-respond input[type=datetime-local]:focus, .comments-area .comment-respond input[type=week]:focus, .comments-area .comment-respond input[type=month]:focus, .comments-area .comment-respond input[type=text]:focus, .comments-area .comment-respond input[type=email]:focus, .comments-area .comment-respond input[type=url]:focus, .comments-area .comment-respond input[type=password]:focus, .comments-area .comment-respond input[type=search]:focus, .comments-area .comment-respond input[type=tel]:focus, .comments-area .comment-respond input[type=number]:focus, .comments-area .comment-respond textarea:focus {
-  border-color: #9300FC;
+.comments-area .comment-respond input[type="date"]:focus,
+.comments-area .comment-respond input[type="time"]:focus,
+.comments-area .comment-respond input[type="datetime-local"]:focus,
+.comments-area .comment-respond input[type="week"]:focus,
+.comments-area .comment-respond input[type="month"]:focus,
+.comments-area .comment-respond input[type="text"]:focus,
+.comments-area .comment-respond input[type="email"]:focus,
+.comments-area .comment-respond input[type="url"]:focus,
+.comments-area .comment-respond input[type="password"]:focus,
+.comments-area .comment-respond input[type="search"]:focus,
+.comments-area .comment-respond input[type="tel"]:focus,
+.comments-area .comment-respond input[type="number"]:focus,
+.comments-area .comment-respond textarea:focus {
+  border-color: #9300fc;
 }
 .comments-area .comment-respond textarea {
   height: auto !important;
@@ -3263,7 +4857,7 @@ blockquote::before, .blockquote::before {
   width: 100%;
 }
 .comments-area .comment-respond .form-submit input {
-  background-color: #9300FC;
+  background-color: #9300fc;
   border: none;
   color: #ffffff;
   padding: 11px 25px 10px;
@@ -3277,7 +4871,8 @@ blockquote::before, .blockquote::before {
   font-weight: 600;
   font-size: 14px;
 }
-.comments-area .comment-respond .form-submit input:hover, .comments-area .comment-respond .form-submit input:focus {
+.comments-area .comment-respond .form-submit input:hover,
+.comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
   background-color: #44ce6f;
 }
@@ -3384,7 +4979,7 @@ Page Title Area CSS
 }
 .page-title-text ul li {
   display: inline-block;
-  color: #9300FC;
+  color: #9300fc;
   margin-right: 10px;
   margin-left: 10px;
   position: relative;
@@ -3443,15 +5038,23 @@ Pagination Area CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
 }
-.pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
+.pagination-area .page-numbers.current,
+.pagination-area .page-numbers:hover,
+.pagination-area .page-numbers:focus {
   color: #ffffff;
 }
-.pagination-area .page-numbers.current::before, .pagination-area .page-numbers:hover::before, .pagination-area .page-numbers:focus::before {
+.pagination-area .page-numbers.current::before,
+.pagination-area .page-numbers:hover::before,
+.pagination-area .page-numbers:focus::before {
   opacity: 1;
   visibility: visible;
 }
@@ -3478,7 +5081,11 @@ Widget Sidebar Area CSS
 .widget-area .widget .widget-title::before {
   content: "";
   position: absolute;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   bottom: -1px;
   left: 0;
   width: 50px;
@@ -3510,7 +5117,7 @@ Widget Sidebar Area CSS
   transition: 0.5s;
 }
 .widget-area .widget_search form .search-field:focus {
-  border-color: #9300FC;
+  border-color: #9300fc;
 }
 .widget-area .widget_search form button {
   position: absolute;
@@ -3531,7 +5138,11 @@ Widget Sidebar Area CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   top: 0;
   transition: 0.5s;
 }
@@ -3625,7 +5236,7 @@ Widget Sidebar Area CSS
   margin-bottom: 0;
 }
 .widget-area .widget_recent_entries ul li::before {
-  background: #9300FC;
+  background: #9300fc;
   position: absolute;
   height: 7px;
   width: 7px;
@@ -3637,7 +5248,7 @@ Widget Sidebar Area CSS
   color: #212529;
 }
 .widget-area .widget_recent_entries ul li a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 .widget-area .widget_recent_entries ul li .post-date {
   display: block;
@@ -3664,7 +5275,7 @@ Widget Sidebar Area CSS
   margin-bottom: 0;
 }
 .widget-area .widget_recent_comments ul li::before {
-  background: #9300FC;
+  background: #9300fc;
   height: 7px;
   width: 7px;
   content: "";
@@ -3680,7 +5291,7 @@ Widget Sidebar Area CSS
   display: inline-block;
 }
 .widget-area .widget_recent_comments ul li a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 .widget-area .widget_categories ul {
   padding-left: 0;
@@ -3699,7 +5310,7 @@ Widget Sidebar Area CSS
   margin-bottom: 0;
 }
 .widget-area .widget_categories ul li::before {
-  background: #9300FC;
+  background: #9300fc;
   height: 7px;
   width: 7px;
   content: "";
@@ -3711,7 +5322,7 @@ Widget Sidebar Area CSS
   color: #57647c;
 }
 .widget-area .widget_categories ul li a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 .widget-area .widget_categories ul li .post-count {
   float: right;
@@ -3734,7 +5345,7 @@ Widget Sidebar Area CSS
   margin-bottom: 0;
 }
 .widget-area .widget_meta ul li::before {
-  background: #9300FC;
+  background: #9300fc;
   height: 7px;
   width: 7px;
   content: "";
@@ -3746,7 +5357,7 @@ Widget Sidebar Area CSS
   color: #57647c;
 }
 .widget-area .widget_meta ul li a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 .widget-area .widget_tag_cloud .widget-title {
   margin-bottom: 12px;
@@ -3769,18 +5380,24 @@ Widget Sidebar Area CSS
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   z-index: -1;
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
   transform: scale(0.8);
 }
-.widget-area .tagcloud a:hover, .widget-area .tagcloud a:focus {
+.widget-area .tagcloud a:hover,
+.widget-area .tagcloud a:focus {
   color: #ffffff;
-  border-color: #9300FC;
+  border-color: #9300fc;
 }
-.widget-area .tagcloud a:hover::before, .widget-area .tagcloud a:focus::before {
+.widget-area .tagcloud a:hover::before,
+.widget-area .tagcloud a:focus::before {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
@@ -3875,7 +5492,7 @@ FAQ Area CSS
   width: 40px;
   text-align: center;
   height: 100%;
-  background: #9300FC;
+  background: #9300fc;
   color: #ffffff;
 }
 .faq-accordion .accordion .accordion-title i::before {
@@ -3947,7 +5564,8 @@ FAQ Area CSS
   margin-left: -7px;
   margin-right: -7px;
 }
-.faq-contact-form form .row .col-lg-12, .faq-contact-form form .row .col-lg-6 {
+.faq-contact-form form .row .col-lg-12,
+.faq-contact-form form .row .col-lg-6 {
   padding-left: 7px;
   padding-right: 7px;
 }
@@ -3974,7 +5592,8 @@ FAQ Area CSS
   margin-bottom: 0;
   text-align: left !important;
 }
-.faq-contact-form form #msgSubmit.text-danger, .faq-contact-form form #msgSubmit.text-success {
+.faq-contact-form form #msgSubmit.text-danger,
+.faq-contact-form form #msgSubmit.text-success {
   margin-top: 8px;
   font-size: 22px;
   font-weight: 300;
@@ -4055,7 +5674,7 @@ Login Area CSS
 }
 .login-content .login-form form .forgot-password a {
   display: inline-block;
-  color: #9300FC;
+  color: #9300fc;
   text-decoration: underline;
   font-size: 14px;
 }
@@ -4066,12 +5685,12 @@ Login Area CSS
   display: block;
   width: 100%;
   position: relative;
-  border: 1px solid #9300FC;
+  border: 1px solid #9300fc;
   background-color: transparent;
   transition: 0.5s;
   padding: 11px 30px;
   border-radius: 2px;
-  color: #9300FC;
+  color: #9300fc;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
@@ -4093,18 +5712,18 @@ Login Area CSS
 }
 .login-content .login-form form .connect-with-social button.google {
   margin-top: 10px;
-  border-color: #EA4335;
-  color: #EA4335;
+  border-color: #ea4335;
+  color: #ea4335;
 }
 .login-content .login-form form .connect-with-social button.google:hover {
-  background-color: #EA4335;
+  background-color: #ea4335;
   color: #ffffff;
-  border-color: #EA4335;
+  border-color: #ea4335;
 }
 .login-content .login-form form .connect-with-social button:hover {
-  background-color: #9300FC;
+  background-color: #9300fc;
   color: #ffffff;
-  border-color: #9300FC;
+  border-color: #9300fc;
 }
 
 /*================================================
@@ -4180,12 +5799,12 @@ Signup Area CSS
   display: block;
   width: 100%;
   position: relative;
-  border: 1px solid #9300FC;
+  border: 1px solid #9300fc;
   background-color: transparent;
   transition: 0.5s;
   padding: 11px 30px;
   border-radius: 2px;
-  color: #9300FC;
+  color: #9300fc;
   font-size: 15px;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -4208,18 +5827,18 @@ Signup Area CSS
 }
 .signup-content .signup-form form .connect-with-social button.google {
   margin-top: 10px;
-  border-color: #EA4335;
-  color: #EA4335;
+  border-color: #ea4335;
+  color: #ea4335;
 }
 .signup-content .signup-form form .connect-with-social button.google:hover {
-  background-color: #EA4335;
+  background-color: #ea4335;
   color: #ffffff;
-  border-color: #EA4335;
+  border-color: #ea4335;
 }
 .signup-content .signup-form form .connect-with-social button:hover {
-  background-color: #9300FC;
+  background-color: #9300fc;
   color: #ffffff;
-  border-color: #9300FC;
+  border-color: #9300fc;
 }
 
 /*================================================
@@ -4245,7 +5864,8 @@ Contact Area CSS
   margin-left: -10px;
   margin-right: -10px;
 }
-.contact-form form .row .col-lg-12, .contact-form form .row .col-lg-6 {
+.contact-form form .row .col-lg-12,
+.contact-form form .row .col-lg-6 {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -4273,7 +5893,8 @@ Contact Area CSS
   margin-bottom: 0;
   text-align: left !important;
 }
-.contact-form form #msgSubmit.text-danger, .contact-form form #msgSubmit.text-success {
+.contact-form form #msgSubmit.text-danger,
+.contact-form form #msgSubmit.text-success {
   margin-top: 8px;
   font-size: 22px;
   font-weight: 300;
@@ -4301,7 +5922,7 @@ Contact Area CSS
   font-size: 15px;
 }
 .contact-info ul li .icon {
-  border: 1px dashed #9300FC;
+  border: 1px dashed #9300fc;
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -4322,7 +5943,11 @@ Contact Area CSS
   right: 0;
   top: 0;
   bottom: 0;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   border-radius: 50%;
   margin: 5px;
   z-index: -1;
@@ -4356,7 +5981,7 @@ Contact Area CSS
   color: #57647c;
 }
 .contact-info ul li a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 .contact-info ul li:hover .icon {
   border-color: #44ce6f;
@@ -4389,7 +6014,7 @@ Contact Area CSS
 Currency Rates Area CSS
 =================================================*/
 .currency-rates-area .section-title p strong {
-  color: #9300FC;
+  color: #9300fc;
 }
 
 .currency-rates-table table {
@@ -4424,7 +6049,12 @@ Currency Rates Area CSS
 .currency-rates-table table tbody td:last-child {
   border-right: 1px solid #eeeeee;
 }
-.currency-rates-table table tbody, .currency-rates-table table td, .currency-rates-table table tfoot, .currency-rates-table table th, .currency-rates-table table thead, .currency-rates-table table tr {
+.currency-rates-table table tbody,
+.currency-rates-table table td,
+.currency-rates-table table tfoot,
+.currency-rates-table table th,
+.currency-rates-table table thead,
+.currency-rates-table table tr {
   border-color: #eeeeee !important;
 }
 
@@ -4468,7 +6098,7 @@ Footer Area CSS
   font-size: 24px;
 }
 .single-footer-widget h3::before {
-  background: #9300FC;
+  background: #9300fc;
   content: "";
   position: absolute;
   bottom: -1px;
@@ -4492,7 +6122,7 @@ Footer Area CSS
 }
 .single-footer-widget .list li a:hover {
   padding-left: 5px;
-  color: #9300FC;
+  color: #9300fc;
 }
 .single-footer-widget .list li:last-child {
   margin-bottom: 0;
@@ -4515,7 +6145,7 @@ Footer Area CSS
   display: inline-block;
 }
 .single-footer-widget .footer-contact-info li a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 .single-footer-widget .footer-contact-info li:last-child {
   margin-bottom: 0;
@@ -4544,14 +6174,14 @@ Footer Area CSS
   height: 30px;
   border: 1px solid #ece9e9;
   border-radius: 50%;
-  color: #9300FC;
+  color: #9300fc;
   display: inline-block;
   font-size: 12px;
 }
 .single-footer-widget .social-links li a:hover {
   color: #ffffff;
-  border-color: #9300FC;
-  background-color: #9300FC;
+  border-color: #9300fc;
+  background-color: #9300fc;
 }
 
 .copyright-area {
@@ -4567,11 +6197,11 @@ Footer Area CSS
 }
 .copyright-area p a {
   display: inline-block;
-  color: #9300FC;
+  color: #9300fc;
   font-weight: 400;
 }
 .copyright-area p a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 
 .map-image {
@@ -4597,7 +6227,11 @@ Go Top CSS
   cursor: pointer;
   bottom: 15px;
   right: 15px;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   z-index: 4;
   width: 40px;
   text-align: center;
@@ -4621,22 +6255,27 @@ Go Top CSS
   visibility: hidden;
   transition: 0.5s;
 }
-.back-to-top .top:hover, .back-to-top .top:focus {
+.back-to-top .top:hover,
+.back-to-top .top:focus {
   color: #ffffff;
 }
-.back-to-top .top:hover::before, .back-to-top .top:focus::before {
+.back-to-top .top:hover::before,
+.back-to-top .top:focus::before {
   opacity: 1;
   visibility: visible;
 }
 
-.main-text-content h1, .main-text-content h2, .main-text-content h3 {
+.main-text-content h1,
+.main-text-content h2,
+.main-text-content h3 {
   margin-bottom: 12px;
 }
-.main-text-content ul li, .main-text-content ol li {
+.main-text-content ul li,
+.main-text-content ol li {
   margin-bottom: 10px;
 }
 .main-text-content a {
-  color: #9300FC;
+  color: #9300fc;
   text-decoration: underline;
 }
 .main-text-content a:hover {
@@ -4663,8 +6302,15 @@ Main Banner Area CSS
   top: 0;
   bottom: 0;
   z-index: -1;
-  background: linear-gradient(151.59deg, #ff2f2f 10.43%, #000460 92.78%), radial-gradient(100% 246.94% at 100% 0, #fff 0, #020063 100%), linear-gradient(143.18deg, #1400ff 0.45%, #3a0000), linear-gradient(167.55deg, #ff002e, #ff003d 74.04%), linear-gradient(351.18deg, #b25bba 7.52%, #1700a7 77.98%), linear-gradient(202.44deg, #a90000 12.99%, #00ffe0 87.21%), linear-gradient(165.77deg, #b7d500 15.35%, #20a 89.57%);
-  background-blend-mode: overlay, color-burn, screen, overlay, difference, difference, normal;
+  background: linear-gradient(151.59deg, #ff2f2f 10.43%, #000460 92.78%),
+    radial-gradient(100% 246.94% at 100% 0, #fff 0, #020063 100%),
+    linear-gradient(143.18deg, #1400ff 0.45%, #3a0000),
+    linear-gradient(167.55deg, #ff002e, #ff003d 74.04%),
+    linear-gradient(351.18deg, #b25bba 7.52%, #1700a7 77.98%),
+    linear-gradient(202.44deg, #a90000 12.99%, #00ffe0 87.21%),
+    linear-gradient(165.77deg, #b7d500 15.35%, #20a 89.57%);
+  background-blend-mode: overlay, color-burn, screen, overlay, difference,
+    difference, normal;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
 }
@@ -4739,7 +6385,7 @@ Payment Experience Area CSS
 .payment-experience-content .link-btn {
   display: inline-block;
   font-weight: 600;
-  color: #9300FC;
+  color: #9300fc;
   position: relative;
   margin-top: 5px;
   line-height: 1;
@@ -4751,7 +6397,11 @@ Payment Experience Area CSS
   bottom: 0;
   width: 100%;
   height: 1px;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   transition: 0.5s;
 }
 .payment-experience-content .link-btn:hover::before {
@@ -4801,7 +6451,7 @@ Payment Experience Area CSS
   background-color: #212529;
 }
 .single-payment-experience-box:hover .icon::before {
-  background-color: #9300FC;
+  background-color: #9300fc;
 }
 
 .col-lg-3:nth-child(2) .single-payment-experience-box .icon {
@@ -4814,7 +6464,7 @@ Payment Experience Area CSS
   background-color: #212529;
 }
 .col-lg-3:nth-child(2) .single-payment-experience-box:hover .icon::before {
-  background-color: #9300FC;
+  background-color: #9300fc;
 }
 .col-lg-3:nth-child(3) .single-payment-experience-box .icon {
   background-color: #bdc7d4;
@@ -4826,7 +6476,7 @@ Payment Experience Area CSS
   background-color: #212529;
 }
 .col-lg-3:nth-child(3) .single-payment-experience-box:hover .icon::before {
-  background-color: #9300FC;
+  background-color: #9300fc;
 }
 .col-lg-3:nth-child(4) .single-payment-experience-box .icon {
   background-color: #bce5e5;
@@ -4838,7 +6488,7 @@ Payment Experience Area CSS
   background-color: #212529;
 }
 .col-lg-3:nth-child(4) .single-payment-experience-box:hover .icon::before {
-  background-color: #9300FC;
+  background-color: #9300fc;
 }
 
 /*================================================
@@ -4895,7 +6545,30 @@ Business Area CSS
 .business-image {
   margin-left: 50px;
   text-align: center;
-  background: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
+  background: linear-gradient(125deg, #fdff9c 0%, #0500ff 100%),
+    linear-gradient(180deg, #d3d3d3 0%, #161616 100%),
+    linear-gradient(
+      310deg,
+      #00f0ff 0%,
+      #00f0ff 20%,
+      #0017e3 calc(20% + 1px),
+      #0017e3 40%,
+      #000f8f calc(40% + 1px),
+      #000f8f 70%,
+      #00073f calc(70% + 1px),
+      #00073f 100%
+    ),
+    linear-gradient(
+      285deg,
+      #ffb6b9 0%,
+      #ffb6b9 35%,
+      #fae3d9 calc(35% + 1px),
+      #fae3d9 45%,
+      #bbded6 calc(45% + 1px),
+      #bbded6 65%,
+      #61c0bf calc(65% + 1px),
+      #61c0bf 100%
+    );
   background-blend-mode: overlay, overlay, exclusion, normal;
   padding: 50px;
 }
@@ -4988,7 +6661,11 @@ Global Area CSS
   border-radius: 2px;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   transition: 0.5s;
 }
 .global-content ul li:hover::before {
@@ -5015,7 +6692,37 @@ Success Story Area CSS
   height: 100%;
   width: 30%;
   z-index: -1;
-  background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%);
+  background: linear-gradient(
+      125deg,
+      #00ff57 0%,
+      #010033 40%,
+      #460043 70%,
+      #f0ffc5 100%
+    ),
+    linear-gradient(55deg, #0014c9 0%, #410060 100%),
+    linear-gradient(300deg, #ffc700 0%, #001aff 100%),
+    radial-gradient(
+      135% 215% at 115% 40%,
+      #393939 0%,
+      #393939 40%,
+      #849561 calc(40% + 1px),
+      #849561 60%,
+      #eed690 calc(60% + 1px),
+      #eed690 80%,
+      #ecefd8 calc(80% + 1px),
+      #ecefd8 100%
+    ),
+    linear-gradient(
+      125deg,
+      #282d4f 0%,
+      #282d4f 40%,
+      #23103a calc(40% + 1px),
+      #23103a 70%,
+      #a0204c calc(70% + 1px),
+      #a0204c 88%,
+      #ff6c00 calc(88% + 1px),
+      #ff6c00 100%
+    );
   background-blend-mode: overlay, screen, overlay, overlay, normal;
 }
 
@@ -5045,7 +6752,8 @@ Success Story Area CSS
   margin-top: 30px;
 }
 
-.success-story-slides .swiper-button-prev, .success-story-slides .swiper-button-next {
+.success-story-slides .swiper-button-prev,
+.success-story-slides .swiper-button-next {
   bottom: 0;
   top: auto;
   background: #fff;
@@ -5053,8 +6761,9 @@ Success Story Area CSS
   height: 40px;
   left: 0;
 }
-.success-story-slides .swiper-button-prev::after, .success-story-slides .swiper-button-next::after {
-  color: #9300FC;
+.success-story-slides .swiper-button-prev::after,
+.success-story-slides .swiper-button-next::after {
+  color: #9300fc;
   font-size: 20px;
 }
 .success-story-slides .swiper-button-next {
@@ -5107,22 +6816,32 @@ Payment Features Area CSS
 .payment-features-overview .payment-features-content .content .link-btn {
   display: inline-block;
   font-weight: 600;
-  color: #9300FC;
+  color: #9300fc;
   position: relative;
   margin-top: 5px;
   line-height: 1;
 }
-.payment-features-overview .payment-features-content .content .link-btn::before {
+.payment-features-overview
+  .payment-features-content
+  .content
+  .link-btn::before {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 1px;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 9, 121) 0%,
+    rgb(255, 106, 0) 100%
+  );
   transition: 0.5s;
 }
-.payment-features-overview .payment-features-content .content .link-btn:hover::before {
+.payment-features-overview
+  .payment-features-content
+  .content
+  .link-btn:hover::before {
   width: 0;
 }
 .payment-features-overview .payment-features-image {
@@ -5134,19 +6853,60 @@ Payment Features Area CSS
 .payment-features-overview .payment-features-image .image {
   margin-right: 15px;
   text-align: center;
-  background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+  background: linear-gradient(45deg, #000850 0%, #000320 100%),
+    radial-gradient(100% 225% at 100% 0%, #ff6928 0%, #000000 100%),
+    linear-gradient(225deg, #ff7a00 0%, #000000 100%),
+    linear-gradient(
+      135deg,
+      #cdffeb 10%,
+      #cdffeb 35%,
+      #009f9d 35%,
+      #009f9d 60%,
+      #07456f 60%,
+      #07456f 67%,
+      #0f0a3c 67%,
+      #0f0a3c 100%
+    );
   background-blend-mode: screen, overlay, hard-light, normal;
   padding: 50px;
 }
 .payment-features-overview:first-child {
   margin-top: 0;
 }
-.payment-features-overview:nth-child(2) .payment-features-content .content, .payment-features-overview:nth-child(4) .payment-features-content .content, .payment-features-overview:nth-child(6) .payment-features-content .content {
+.payment-features-overview:nth-child(2) .payment-features-content .content,
+.payment-features-overview:nth-child(4) .payment-features-content .content,
+.payment-features-overview:nth-child(6) .payment-features-content .content {
   padding-left: 0;
   padding-right: 15px;
 }
-.payment-features-overview:nth-child(2) .payment-features-image .image, .payment-features-overview:nth-child(4) .payment-features-image .image, .payment-features-overview:nth-child(6) .payment-features-image .image {
-  background: linear-gradient(123deg, #FFFFFF 0%, #00B2FF 100%), linear-gradient(236deg, #BAFF99 0%, #005E64 100%), linear-gradient(180deg, #FFFFFF 0%, #002A5A 100%), linear-gradient(225deg, #0094FF 20%, #BFF4ED 45%, #280F34 45%, #280F34 70%, #FF004E 70%, #E41655 85%, #B30753 85%, #B30753 100%), linear-gradient(135deg, #0E0220 15%, #0E0220 35%, #E40475 35%, #E40475 60%, #48E0E4 60%, #48E0E4 68%, #D7FBF6 68%, #D7FBF6 100%);
+.payment-features-overview:nth-child(2) .payment-features-image .image,
+.payment-features-overview:nth-child(4) .payment-features-image .image,
+.payment-features-overview:nth-child(6) .payment-features-image .image {
+  background: linear-gradient(123deg, #ffffff 0%, #00b2ff 100%),
+    linear-gradient(236deg, #baff99 0%, #005e64 100%),
+    linear-gradient(180deg, #ffffff 0%, #002a5a 100%),
+    linear-gradient(
+      225deg,
+      #0094ff 20%,
+      #bff4ed 45%,
+      #280f34 45%,
+      #280f34 70%,
+      #ff004e 70%,
+      #e41655 85%,
+      #b30753 85%,
+      #b30753 100%
+    ),
+    linear-gradient(
+      135deg,
+      #0e0220 15%,
+      #0e0220 35%,
+      #e40475 35%,
+      #e40475 60%,
+      #48e0e4 60%,
+      #48e0e4 68%,
+      #d7fbf6 68%,
+      #d7fbf6 100%
+    );
   background-blend-mode: overlay, overlay, overlay, darken, normal;
   margin-right: 0;
   margin-left: 15px;
@@ -5156,8 +6916,15 @@ Payment Features Area CSS
 Get Started Area CSS
 =================================================*/
 .get-started-area {
-  background: linear-gradient(129.96deg, #FF2F2F 10.43%, #000460 92.78%), radial-gradient(100% 246.94% at 100% 0%, #FFFFFF 0%, #020063 100%), linear-gradient(58.72deg, #2200F2 0%, #530000 100%), linear-gradient(154.03deg, #B70000 0%, #FF003D 74.04%), linear-gradient(341.1deg, #FF0000 7.52%, #0038FF 77.98%), linear-gradient(136.23deg, #00C2FF 11.12%, #FF0000 86.47%), radial-gradient(57.37% 100% at 50% 0%, #B50000 0%, #0034BB 100%);
-  background-blend-mode: overlay, color-burn, screen, overlay, difference, difference, normal;
+  background: linear-gradient(129.96deg, #ff2f2f 10.43%, #000460 92.78%),
+    radial-gradient(100% 246.94% at 100% 0%, #ffffff 0%, #020063 100%),
+    linear-gradient(58.72deg, #2200f2 0%, #530000 100%),
+    linear-gradient(154.03deg, #b70000 0%, #ff003d 74.04%),
+    linear-gradient(341.1deg, #ff0000 7.52%, #0038ff 77.98%),
+    linear-gradient(136.23deg, #00c2ff 11.12%, #ff0000 86.47%),
+    radial-gradient(57.37% 100% at 50% 0%, #b50000 0%, #0034bb 100%);
+  background-blend-mode: overlay, color-burn, screen, overlay, difference,
+    difference, normal;
 }
 
 .get-started-title h2 {
@@ -5197,7 +6964,7 @@ Get Started Area CSS
 }
 .wrap-section-title span {
   font-size: 16.5px;
-  color: #9300FC;
+  color: #9300fc;
   display: inline-block;
   margin-bottom: 18px;
   font-weight: 400;
@@ -5215,89 +6982,589 @@ Navbar Area CSS
 .navbar-area.navbar-with-position-relative {
   background-color: #ffffff;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item a {
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  a {
   color: #57647c;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item a:focus, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item a.active {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  a:hover,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  a:focus,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item:hover a, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item.active a {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item:hover
+  a,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #212529;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li.active
+  a {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .others-options .login-btn {
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .others-options
+  .login-btn {
   color: #57647c;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .others-options .login-btn i {
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .others-options
+  .login-btn
+  i {
   margin-right: 2px;
   color: #eae563;
 }
-.navbar-area.navbar-with-position-relative .haiper-nav .navbar .others-options .login-btn:hover {
-  color: #9300FC;
+.navbar-area.navbar-with-position-relative
+  .haiper-nav
+  .navbar
+  .others-options
+  .login-btn:hover {
+  color: #9300fc;
 }
-.navbar-area.navbar-with-position-relative.is-sticky .navbar-brand img:nth-child(1) {
+.navbar-area.navbar-with-position-relative.is-sticky
+  .navbar-brand
+  img:nth-child(1) {
   display: block;
 }
-.navbar-area.navbar-with-position-relative.is-sticky .navbar-brand img:nth-child(2) {
+.navbar-area.navbar-with-position-relative.is-sticky
+  .navbar-brand
+  img:nth-child(2) {
   display: none;
 }
 
@@ -5305,7 +7572,7 @@ Navbar Area CSS
 Main Banner Woman Area CSS
 =================================================*/
 .main-banner-woman-area {
-  background-color: #FFFDEF;
+  background-color: #fffdef;
   padding-top: 150px;
   position: relative;
   z-index: 1;
@@ -5324,7 +7591,7 @@ Main Banner Woman Area CSS
 }
 .main-banner-woman-area .banner-woman-list li {
   font-size: 16px;
-  color: #5C5C5C;
+  color: #5c5c5c;
   font-weight: 400;
   display: inline-block;
   margin-right: 20px;
@@ -5338,7 +7605,7 @@ Main Banner Woman Area CSS
   line-height: 35px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.13);
   background-color: #ffffff;
-  color: #DD2476;
+  color: #dd2476;
   font-size: 16px;
   text-align: center;
   border-radius: 30px;
@@ -5352,7 +7619,7 @@ Main Banner Woman Area CSS
   margin-right: 0;
 }
 .main-banner-woman-area .banner-woman-list li:hover i {
-  background-color: #9300FC;
+  background-color: #9300fc;
   color: #ffffff;
 }
 
@@ -5397,8 +7664,8 @@ Main Banner Woman Area CSS
   transition: 0.5s;
 }
 .main-banner-woman-content .btn-list li .discover-more-btn:hover {
-  color: #9300FC;
-  border-bottom: 1px solid #9300FC;
+  color: #9300fc;
+  border-bottom: 1px solid #9300fc;
 }
 
 .main-banner-woman-image {
@@ -5453,7 +7720,7 @@ About Us Area CSS
 
 .about-us-content span {
   font-size: 16.5px;
-  color: #9300FC;
+  color: #9300fc;
   display: inline-block;
   margin-bottom: 18px;
   font-weight: 400;
@@ -5490,7 +7757,7 @@ About Us Area CSS
   line-height: 31.8px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.13);
   background-color: #ffffff;
-  color: #DD2476;
+  color: #dd2476;
   font-size: 10px;
   text-align: center;
   border-radius: 30px;
@@ -5504,7 +7771,7 @@ About Us Area CSS
   margin-bottom: 0;
 }
 .about-us-content .list li:hover i {
-  background-color: #9300FC;
+  background-color: #9300fc;
   color: #ffffff;
 }
 .about-us-content .about-btn {
@@ -5515,8 +7782,8 @@ About Us Area CSS
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #9300FC;
-  border-bottom: 1px solid #9300FC;
+  color: #9300fc;
+  border-bottom: 1px solid #9300fc;
   transition: 0.5s;
 }
 .about-us-content .about-btn .sign-up-btn:hover {
@@ -5566,7 +7833,7 @@ Flexibility Area CSS
 }
 .flexibility-content span {
   font-size: 16.5px;
-  color: #9300FC;
+  color: #9300fc;
   display: inline-block;
   margin-bottom: 18px;
   font-weight: 400;
@@ -5588,8 +7855,8 @@ Flexibility Area CSS
   display: inline-block;
   margin-bottom: 20px;
   position: relative;
-  background-color: #FFFDEF;
-  color: #5C5C5C;
+  background-color: #fffdef;
+  color: #5c5c5c;
   padding: 20.5px 20px 20px 62px;
   width: 100%;
   border-radius: 5px;
@@ -5601,7 +7868,7 @@ Flexibility Area CSS
   line-height: 31.8px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.13);
   background-color: #ffffff;
-  color: #DD2476;
+  color: #dd2476;
   font-size: 10px;
   text-align: center;
   border-radius: 30px;
@@ -5615,7 +7882,7 @@ Flexibility Area CSS
   margin-bottom: 0;
 }
 .flexibility-content .list li:hover i {
-  background-color: #9300FC;
+  background-color: #9300fc;
   color: #ffffff;
 }
 .flexibility-content p {
@@ -5645,7 +7912,7 @@ Fun Facts Area CSS
   content: "";
   height: 50%;
   width: 100%;
-  background: #F5F5F5;
+  background: #f5f5f5;
   left: 0;
   right: 0;
   bottom: 0;
@@ -5685,12 +7952,12 @@ Fun Facts Area CSS
 Security Services Area CSS
 =================================================*/
 .security-services-area {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .security-services-card {
   padding: 30px;
-  border-left: 1px solid #9300FC;
+  border-left: 1px solid #9300fc;
   margin-bottom: 25px;
   transition: 0.5s;
 }
@@ -5699,7 +7966,7 @@ Security Services Area CSS
   line-height: 1;
 }
 .security-services-card .icon i {
-  color: #9300FC;
+  color: #9300fc;
 }
 .security-services-card .icon i::before {
   font-size: 50px;
@@ -5717,8 +7984,8 @@ Security Services Area CSS
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #9300FC;
-  border-bottom: 1px solid #9300FC;
+  color: #9300fc;
+  border-bottom: 1px solid #9300fc;
   transition: 0.5s;
 }
 .security-services-card .read-more-btn:hover {
@@ -5743,7 +8010,7 @@ Awesome Features Area CSS
 }
 .awesome-features-content span {
   font-size: 16.5px;
-  color: #9300FC;
+  color: #9300fc;
   display: inline-block;
   margin-bottom: 18px;
   font-weight: 400;
@@ -5765,8 +8032,8 @@ Awesome Features Area CSS
   display: inline-block;
   margin-bottom: 20px;
   position: relative;
-  background-color: #FFFDEF;
-  color: #5C5C5C;
+  background-color: #fffdef;
+  color: #5c5c5c;
   padding: 20.5px 20px 20px 62px;
   width: 100%;
   border-radius: 5px;
@@ -5778,7 +8045,7 @@ Awesome Features Area CSS
   line-height: 31.8px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.13);
   background-color: #ffffff;
-  color: #DD2476;
+  color: #dd2476;
   font-size: 10px;
   text-align: center;
   border-radius: 30px;
@@ -5792,7 +8059,7 @@ Awesome Features Area CSS
   margin-bottom: 0;
 }
 .awesome-features-content .list li:hover i {
-  background-color: #9300FC;
+  background-color: #9300fc;
   color: #ffffff;
 }
 .awesome-features-content p {
@@ -5862,8 +8129,11 @@ Testimonials Wrap Area CSS
   background-color: #fff;
   opacity: 1;
 }
-.testimonials-wrap-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, .testimonials-wrap-slides .swiper-pagination .swiper-pagination-bullet:hover {
-  background-color: #9300FC;
+.testimonials-wrap-slides
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.testimonials-wrap-slides .swiper-pagination .swiper-pagination-bullet:hover {
+  background-color: #9300fc;
 }
 
 .testimonials-wrap-shape {
@@ -5889,7 +8159,7 @@ Blog Area CSS
   border-radius: 5px;
 }
 .single-blog-card .image .date {
-  color: #9300FC;
+  color: #9300fc;
   transform: rotate(90deg);
   transform-origin: 0;
   position: absolute;
@@ -5905,7 +8175,7 @@ Blog Area CSS
   content: "";
   position: absolute;
   transform: translateY(-50%);
-  background-color: #9300FC;
+  background-color: #9300fc;
 }
 .single-blog-card .content {
   background-color: #ffffff;
@@ -5929,8 +8199,8 @@ Blog Area CSS
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #9300FC;
-  border-bottom: 1px solid #9300FC;
+  color: #9300fc;
+  border-bottom: 1px solid #9300fc;
   transition: 0.5s;
 }
 .single-blog-card .content .read-more-btn:hover {
@@ -5981,7 +8251,9 @@ Subscribe Wrap Area CSS
   font-size: 16px;
   font-weight: 400;
 }
-.subscribe-wrap-box-content .newsletter-form .input-newsletter::-moz-placeholder {
+.subscribe-wrap-box-content
+  .newsletter-form
+  .input-newsletter::-moz-placeholder {
   color: #ffffff;
   -moz-transition: 0.5s;
   transition: 0.5s;
@@ -5990,10 +8262,14 @@ Subscribe Wrap Area CSS
   color: #ffffff;
   transition: 0.5s;
 }
-.subscribe-wrap-box-content .newsletter-form .input-newsletter:focus::-moz-placeholder {
+.subscribe-wrap-box-content
+  .newsletter-form
+  .input-newsletter:focus::-moz-placeholder {
   color: transparent;
 }
-.subscribe-wrap-box-content .newsletter-form .input-newsletter:focus::placeholder {
+.subscribe-wrap-box-content
+  .newsletter-form
+  .input-newsletter:focus::placeholder {
   color: transparent;
 }
 .subscribe-wrap-box-content .newsletter-form .validation-danger {
@@ -6030,7 +8306,7 @@ Footer Area CSS
   background-color: #ffffff;
 }
 .footer-area.footer-style-wrap .single-footer-widget .social-links li a:hover {
-  background-color: #9300FC;
+  background-color: #9300fc;
   color: #ffffff;
 }
 .footer-area.footer-style-wrap .single-footer-widget h3 {
@@ -6044,7 +8320,7 @@ Footer Area CSS
   content: "";
   height: 1px;
   width: 100px;
-  background-color: #9300FC;
+  background-color: #9300fc;
   left: 0;
   bottom: -1px;
 }
@@ -6056,14 +8332,14 @@ Footer Area CSS
   color: #ffffff;
 }
 .footer-area.footer-style-wrap .single-footer-widget .list li a:hover {
-  color: #9300FC;
+  color: #9300fc;
 }
 .footer-area.footer-style-wrap .single-footer-widget .list li::before {
   position: absolute;
   content: "";
   height: 8px;
   width: 8px;
-  background-color: #9300FC;
+  background-color: #9300fc;
   border-radius: 50px;
   left: 0;
   top: 50%;
@@ -6075,14 +8351,22 @@ Footer Area CSS
 .footer-area.footer-style-wrap .single-footer-widget .footer-contact-info li a {
   color: #ffffff;
 }
-.footer-area.footer-style-wrap .single-footer-widget .footer-contact-info li a:hover {
-  color: #9300FC;
+.footer-area.footer-style-wrap
+  .single-footer-widget
+  .footer-contact-info
+  li
+  a:hover {
+  color: #9300fc;
 }
-.footer-area.footer-style-wrap .single-footer-widget .footer-contact-info li span {
+.footer-area.footer-style-wrap
+  .single-footer-widget
+  .footer-contact-info
+  li
+  span {
   color: #ffffff;
 }
 .footer-area.footer-style-wrap .copyright-area {
-  border-top: 1px solid #3D3D3D;
+  border-top: 1px solid #3d3d3d;
 }
 .footer-area.footer-style-wrap .copyright-area p {
   color: #ffffff;
@@ -6091,17 +8375,10 @@ Footer Area CSS
   color: #ffffff;
 }
 .footer-area.footer-style-wrap .copyright-area p a:hover {
-
-
-  color: #9300FC;
-
+  color: #9300fc;
 }
 
 .logo-image-size {
   width: 95px;
   height: 45px;
-
 }
-
-}/*# sourceMappingURL=style.css.map */
-
