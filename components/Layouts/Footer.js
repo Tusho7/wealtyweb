@@ -59,7 +59,7 @@ const Footer = () => {
               data-aos-duration="1200"
             >
               <div className="single-footer-widget pl-5">
-                <h3>Company</h3>
+                <h3>კომპანია</h3>
 
                 <ul className="list">
                   <li>
@@ -119,7 +119,7 @@ const Footer = () => {
               data-aos-duration="1200"
             >
               <div className="single-footer-widget">
-                <h3>Address</h3>
+                <h3>მისამართი</h3>
 
                 <ul className="footer-contact-info">
                   <li>
