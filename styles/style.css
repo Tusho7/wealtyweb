@@ -2169,163 +2169,48 @@ Invoicing Area CSS
 Information Area CSS
 =================================================*/
 .information-area {
-  padding-top: 70px;
-}
-.information-area .col-lg-3:last-child .single-information-box {
-  padding-left: 0;
+  padding-top: 150px;
+  margin: 0 150px;
 }
 
-.single-information-box {
-  position: relative;
-  padding-left: 60px;
+.horizontalScroll {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 50px; /* Adjust padding as needed */
 }
-.single-information-box .icon {
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-  border-radius: 50%;
-  background-color: #9300FC;
-  color: #ffffff;
-  position: absolute;
-  left: 0;
-  top: 0;
+
+.scrollContent {
+  display: inline-flex;
+  animation: scroll 15s linear infinite;
 }
-.single-information-box .icon i::before {
-  font-size: 20px;
-}
-.single-information-box h3 {
-  margin-bottom: 0;
-  font-size: 17px;
-  font-weight: 700;
-}
-.single-information-box p {
-  line-height: initial;
+
+.contentItem {
+  min-width: 200px; /* Adjust item width as needed */
+  border: 1px solid #9e1e1e;
+  padding: 10px;
+  margin-right: 20px;
   font-size: 14px;
-  margin-top: 5px;
-  margin-bottom: 0;
+  font-weight: 600;
+  cursor: pointer;
 }
-.single-information-box .btn-box .app-store-btn {
-  border-radius: 3px;
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-  color: #ffffff;
-  padding: 10px 15px 10px 35px;
-  font-size: 11px;
+
+.horizontalScroll:hover > div {
+  -webkit-animation-play-state: paused !important;
+  -moz-animation-play-state: paused !important;
+  -o-animation-play-state: paused !important;
+  animation-play-state: paused !important;
 }
-.single-information-box .btn-box .app-store-btn i {
-  position: absolute;
-  left: 8px;
-  top: 50%;
-  transform: translateY(-50%);
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
-.single-information-box .btn-box .app-store-btn i::before {
-  font-size: 20px;
-}
-.single-information-box .btn-box .app-store-btn span {
-  display: block;
-  font-size: 15px;
-  font-weight: 500;
-}
-.single-information-box .btn-box .app-store-btn::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 3px;
-  z-index: -1;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
-  transition: 0.5s;
-}
-.single-information-box .btn-box .app-store-btn::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 3px;
-  z-index: -1;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
-  transition: 0.5s;
-  opacity: 0;
-  visibility: hidden;
-}
-.single-information-box .btn-box .app-store-btn:hover {
-  color: #ffffff;
-}
-.single-information-box .btn-box .app-store-btn:hover::after {
-  opacity: 1;
-  visibility: visible;
-}
-.single-information-box .btn-box .app-store-btn:hover::before {
-  opacity: 0;
-  visibility: hidden;
-}
-.single-information-box .btn-box .play-store-btn {
-  margin-left: 10px;
-  border-radius: 3px;
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-  color: #ffffff;
-  padding: 10px 15px 10px 35px;
-  font-size: 11px;
-}
-.single-information-box .btn-box .play-store-btn i {
-  position: absolute;
-  left: 8px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.single-information-box .btn-box .play-store-btn i::before {
-  font-size: 20px;
-}
-.single-information-box .btn-box .play-store-btn span {
-  display: block;
-  font-size: 15px;
-  font-weight: 500;
-}
-.single-information-box .btn-box .play-store-btn::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 3px;
-  z-index: -1;
-  background: linear-gradient(90deg, rgb(238, 9, 121) 0%, rgb(255, 106, 0) 100%);
-  transition: 0.5s;
-  opacity: 0;
-  visibility: hidden;
-}
-.single-information-box .btn-box .play-store-btn::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 3px;
-  z-index: -1;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
-  transition: 0.5s;
-}
-.single-information-box .btn-box .play-store-btn:hover {
-  color: #ffffff;
-}
-.single-information-box .btn-box .play-store-btn:hover::after {
-  opacity: 0;
-  visibility: hidden;
-}
-.single-information-box .btn-box .play-store-btn:hover::before {
-  opacity: 1;
-  visibility: visible;
-}
+
+/************RESPONSIVE INFORMATION-AREA************/
 
 /*================================================
 Pricing Area CSS
@@ -6206,10 +6091,17 @@ Footer Area CSS
   color: #ffffff;
 }
 .footer-area.footer-style-wrap .copyright-area p a:hover {
+
+
   color: #9300FC;
+
 }
 
 .logo-image-size {
   width: 95px;
   height: 45px;
+
+}
+
 }/*# sourceMappingURL=style.css.map */
+
