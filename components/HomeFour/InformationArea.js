@@ -62,7 +62,7 @@ const InformationArea = () => {
           <div className="scrollContent">
             <div className="contentItem">Item 1</div>
             {slides.map((slide, index) => (
-              <div className="contentItem">
+              <div className="contentItem" key={index}>
                 {slide.title}-{slide.proName}
               </div>
             ))}

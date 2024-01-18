@@ -3690,7 +3690,7 @@ Information Area CSS
 .horizontalScroll {
   overflow: hidden;
   white-space: nowrap;
-  padding: 50px; /* Adjust padding as needed */
+  padding: 50px;
 }
 
 .scrollContent {
@@ -3716,16 +3716,19 @@ Information Area CSS
 }
 
 @keyframes scroll {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
+  to {
+    transform: translate(calc(-50% - 0.5rem));
   }
 }
 
-/************RESPONSIVE INFORMATION-AREA************/
 
+
+/************RESPONSIVE INFORMATION-AREA************/
+@media screen and (max-width:699px){
+  .information-area{
+    margin:0 50px;
+  }
+}
 /*================================================
 Pricing Area CSS
 =================================================*/
