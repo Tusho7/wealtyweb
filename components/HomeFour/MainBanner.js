@@ -23,10 +23,6 @@ const MainBanner = () => {
                   Get the financial tools and insights to start, build, and grow
                   your business.
                 </p>
-
-                {/* <Link href="/sign-up" className="btn btn-primary">
-                  Create your account
-                </Link> */}
               </div>
             </div>
 
@@ -68,10 +64,7 @@ const MainBanner = () => {
                   />
                 </div>
 
-                <div
-                  onClick={() => setToggler(!toggler)}
-                  className="video-btn"
-                >
+                <div onClick={() => setToggler(!toggler)} className="video-btn">
                   <i className="fas fa-play mr-2"></i>
                   Play Video
                 </div>

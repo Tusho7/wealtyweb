@@ -3682,18 +3682,18 @@ Invoicing Area CSS
 /*================================================
 Information Area CSS
 =================================================*/
-.information-area {
+#information-area {
   padding-top: 150px;
   margin: 0 150px;
 }
 
-.horizontalScroll {
+#horizontalScroll {
   overflow: hidden;
   white-space: nowrap;
   padding: 50px;
 }
 
-.scrollContent {
+#scrollContent {
   display: inline-flex;
   animation: scroll 20s linear infinite;
 }
@@ -3708,7 +3708,7 @@ Information Area CSS
   cursor: pointer;
 }
 
-.horizontalScroll:hover > div {
+#horizontalScroll:hover > div {
   -webkit-animation-play-state: paused !important;
   -moz-animation-play-state: paused !important;
   -o-animation-play-state: paused !important;
@@ -3721,12 +3721,10 @@ Information Area CSS
   }
 }
 
-
-
 /************RESPONSIVE INFORMATION-AREA************/
-@media screen and (max-width:699px){
-  .information-area{
-    margin:0 50px;
+@media screen and (max-width: 699px) {
+  #information-area {
+    margin: 0 50px;
   }
 }
 /*================================================

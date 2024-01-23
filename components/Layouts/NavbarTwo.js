@@ -41,12 +41,16 @@ const Navbar = () => {
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/" className="navbar-brand">
-                <img src="/images/logo.png" alt="logo" className="logo-image-size" />
+                <img
+                  src="/images/logo.png"
+                  alt="logo"
+                  className="logo-image-size"
+                />
               </Link>
 
               {/* Toggle navigation */}
               <button
-                // onClick={toggleNavbar}
+                onClick={toggleNavbar}
                 className={classTwo}
                 type="button"
                 data-toggle="collapse"
@@ -94,44 +98,7 @@ const Navbar = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="#">
-                      ბლოგი 
-                    </Link>
-
-                    {/* <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/blog-one/"
-                          className={`nav-link ${
-                            currentPath == "/blog-one/" && "active"
-                          }`}
-                        >
-                          Blog Grid
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/blog-two/"
-                          className={`nav-link ${
-                            currentPath == "/blog-two/" && "active"
-                          }`}
-                        >
-                          Blog Right Sidebar
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/single-blog/"
-                          className={`nav-link ${
-                            currentPath == "/single-blog/" && "active"
-                          }`}
-                        >
-                          Blog Details
-                        </Link>
-                      </li>
-                    </ul> */}
+                    <Link href="#">ბლოგი</Link>
                   </li>
 
                   <li className="nav-item">
@@ -148,8 +115,8 @@ const Navbar = () => {
               </div>
 
               <div className="others-options">
-                <Link href="/login" className="login-btn">
-                  <i className="flaticon-user"></i> შესვლა
+                <Link href="/login" className="login-btn ">
+                  შესვლა
                 </Link>
               </div>
             </nav>
