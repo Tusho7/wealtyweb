@@ -403,7 +403,8 @@ Navbar Area CSS
 .haiper-nav .navbar .navbar-nav .nav-item a:hover,
 .haiper-nav .navbar .navbar-nav .nav-item a:focus,
 .haiper-nav .navbar .navbar-nav .nav-item a.active {
-  color: #9300fc;
+  background-color: #eee8f8;
+  color: #fff;
 }
 .haiper-nav .navbar .navbar-nav .nav-item a i {
   font-size: 10px;
@@ -1097,10 +1098,13 @@ Navbar Area CSS
   margin-left: 25px;
 }
 .haiper-nav .navbar .others-options .login-btn {
-  color: #ffffff;
-  font-size: 17px;
+  background-color: #9300fc;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 16px;
   font-weight: 500;
   font-family: "Raleway", sans-serif;
+  border-radius: 4px;
 }
 .haiper-nav .navbar .others-options .login-btn i {
   margin-right: 2px;
@@ -1148,7 +1152,7 @@ Navbar Area CSS
 .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item a:hover,
 .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item a:focus,
 .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item a.active {
-  color: #9300fc;
+  color: #000;
 }
 .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item:hover a,
 .navbar-area.is-sticky .haiper-nav .navbar .navbar-nav .nav-item.active a {
@@ -1162,7 +1166,9 @@ Navbar Area CSS
   .dropdown-menu
   li
   a {
-  color: #212529;
+  /* color: #212529;
+   */
+  color: #fff;
 }
 .navbar-area.is-sticky
   .haiper-nav
@@ -1232,7 +1238,7 @@ Navbar Area CSS
   .dropdown-menu
   li
   a.active {
-  color: #9300fc;
+  color: #000;
 }
 .navbar-area.is-sticky
   .haiper-nav
@@ -1284,7 +1290,7 @@ Navbar Area CSS
   .dropdown-menu
   li
   a.active {
-  color: #9300fc;
+  color: #000;
 }
 .navbar-area.is-sticky
   .haiper-nav
@@ -1344,7 +1350,7 @@ Navbar Area CSS
   .dropdown-menu
   li
   a.active {
-  color: #9300fc;
+  color: #000;
 }
 .navbar-area.is-sticky
   .haiper-nav
@@ -1665,14 +1671,12 @@ Navbar Area CSS
   color: #9300fc;
 }
 .navbar-area.is-sticky .haiper-nav .navbar .others-options .login-btn {
-  color: #212529;
+  color: #fff;
 }
 .navbar-area.is-sticky .haiper-nav .navbar .others-options .login-btn i {
   color: #9300fc;
 }
-.navbar-area.is-sticky .haiper-nav .navbar .others-options .login-btn:hover {
-  color: #9300fc;
-}
+
 .navbar-area.navbar-style-two .navbar-brand img {
   display: block !important;
 }
@@ -1687,7 +1691,7 @@ Navbar Area CSS
   .navbar-nav
   .nav-item
   a.active {
-  color: #9300fc;
+  color: #000;
 }
 .navbar-area.navbar-style-two .haiper-nav .navbar .navbar-nav .nav-item:hover a,
 .navbar-area.navbar-style-two
@@ -1732,7 +1736,7 @@ Navbar Area CSS
   .dropdown-menu
   li
   a.active {
-  color: #9300fc;
+  color: #000;
 }
 .navbar-area.navbar-style-two
   .haiper-nav
@@ -1776,7 +1780,7 @@ Navbar Area CSS
   .dropdown-menu
   li
   a.active {
-  color: #9300fc;
+  color: #000;
 }
 .navbar-area.navbar-style-two
   .haiper-nav
@@ -2209,13 +2213,10 @@ Navbar Area CSS
   color: #9300fc;
 }
 .navbar-area.navbar-style-two .haiper-nav .others-options .login-btn {
-  color: #212529;
+  color: #fff;
 }
 .navbar-area.navbar-style-two .haiper-nav .others-options .login-btn i {
   color: #212529;
-}
-.navbar-area.navbar-style-two .haiper-nav .others-options .login-btn:hover {
-  color: #9300fc;
 }
 
 /* Navbar toggler */
@@ -8382,4 +8383,68 @@ Footer Area CSS
 .logo-image-size {
   width: 95px;
   height: 45px;
+}
+
+.profile-container {
+  background-color: #f3f4f8;
+  height: 100vh;
+}
+
+.main-navbar-container {
+  background-color: #fff;
+}
+
+.main-navbar {
+  max-width: 1440px;
+  background: #fff;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.main-navbar-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.main-navbar-links {
+  margin-right: 35px;
+}
+
+.main-navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 15px;
+  background: #eee8f8;
+  border-radius: 4px;
+}
+
+.profile-main-content {
+  max-width: 1440px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.sidebar-container {
+  background: #fff;
+  width: 332px;
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+}
+
+.sidebar-container div {
+  padding: 15px;
+  border-radius: 4px;
 }

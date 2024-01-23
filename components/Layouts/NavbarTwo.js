@@ -48,7 +48,6 @@ const Navbar = () => {
                 />
               </Link>
 
-              {/* Toggle navigation */}
               <button
                 onClick={toggleNavbar}
                 className={classTwo}
@@ -66,11 +65,8 @@ const Navbar = () => {
 
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav">
-                  <li className="nav-item">
-                    <Link
-                      href="/"
-                      className={`nav-link ${currentPath == "/" && "active"}`}
-                    >
+                  <li className={`nav-item`}>
+                    <Link href="/" className={`nav-link `}>
                       მთავარი
                     </Link>
                   </li>

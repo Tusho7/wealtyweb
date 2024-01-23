@@ -1,10 +1,12 @@
-"use client";
-// import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import Cookies from "js-cookie";
 
 import * as yup from "yup";
 import { login } from "../../services/login";
+import { useRouter } from "next/router";
+import { useDispatch } from "react-redux";
+import { addUser } from "../../store/credentialsSlice";
 
 const schema = yup.object({
   email: yup.string().required().email(),
@@ -12,6 +14,8 @@ const schema = yup.object({
 });
 
 const LoginForm = () => {
+  const router = useRouter();
+  const dispatch = useDispatch();
   const {
     register,
     formState: { errors },
@@ -19,8 +23,14 @@ const LoginForm = () => {
   } = useForm({ resolver: yupResolver(schema), mode: "all" });
 
   const onSubmit = async (credentials) => {
-    const data = await login(credentials);
-    console.log(data);
+    const response = await login(credentials);
+    if (response.status === 200) {
+      Cookies.set("authToken", response.data.Token);
+      dispatch(
+        addUser({ id: response.data.CustomerId, token: response.data.Token })
+      );
+      router.push("/profile/" + response.data.CustomerId);
+    }
   };
 
   return (
