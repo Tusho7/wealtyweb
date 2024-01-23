@@ -57,10 +57,9 @@ const InformationArea = () => {
 
   return (
     <>
-      <div className="information-area">
-        <div className="horizontalScroll">
-          <div className="scrollContent">
-            <div className="contentItem">Item 1</div>
+      <div id="information-area">
+        <div id="horizontalScroll">
+          <div id="scrollContent">
             {slides.map((slide, index) => (
               <div className="contentItem" key={index}>
                 {slide.title}-{slide.proName}
