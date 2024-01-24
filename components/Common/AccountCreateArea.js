@@ -14,7 +14,7 @@ const AccountCreateArea = () => {
 
             <div className="col-lg-4">
               <div className="create-account">
-                <Link href="/sign-up" className="btn btn-primary">
+                <Link href="/sign-up" className="btn  get_your_acc">
                   Get Your Account
                 </Link>
               </div>
