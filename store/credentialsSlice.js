@@ -1,11 +1,14 @@
 import { createSlice } from "@reduxjs/toolkit";
+import Cookies from "js-cookie";
 
 const initialState = {
   firstName: "",
   lastName: "",
-  personalNumber: "",
-  phoneNumber: "",
   email: "",
+  phoneNumber: "",
+  personalNumber: "",
+  customerId: "",
+  token: "",
 };
 
 export const credentialsSlice = createSlice({
@@ -13,12 +16,32 @@ export const credentialsSlice = createSlice({
   initialState,
   reducers: {
     addUser: (state, action) => {
-      const { firstName, lastName, personalNumber, phoneNumber, email } =
-        action.payload;
-      state = { firstName, lastName, personalNumber, phoneNumber, email };
+      const {
+        firstName,
+        lastName,
+        personalNumber,
+        phoneNumber,
+        email,
+        customerId,
+        token,
+      } = action.payload;
+      state.firstName = firstName;
+      state.lastName = lastName;
+      state.personalNumber = personalNumber;
+      state.phoneNumber = phoneNumber;
+      state.customerId = customerId;
+      state.email = email;
+      state.token = token;
     },
     removeUser: (state) => {
-      state = initialState;
+      state.firstName = "";
+      state.lastName = "";
+      state.personalNumber = "";
+      state.phoneNumber = "";
+      state.customerId = "";
+      state.email = "";
+      state.token = "";
+      Cookies.remove("authToken");
     },
   },
 });

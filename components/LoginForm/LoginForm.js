@@ -26,9 +26,7 @@ const LoginForm = () => {
     const response = await login(credentials);
     if (response.status === 200) {
       Cookies.set("authToken", response.data.Token);
-      dispatch(
-        addUser({ id: response.data.CustomerId, token: response.data.Token })
-      );
+      dispatch(addUser(response.data));
       router.push("/profile/" + response.data.CustomerId);
     }
   };

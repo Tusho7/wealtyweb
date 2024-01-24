@@ -386,11 +386,13 @@ Navbar Area CSS
 }
 .haiper-nav .navbar .navbar-nav .nav-item {
   position: relative;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 0;
-  padding-right: 0;
+  /* padding: 15px; */
 }
+
+.haiper-nav .navbar .navbar-nav .nav-item:hover {
+  background-color: #eee8f8;
+}
+
 .haiper-nav .navbar .navbar-nav .nav-item a {
   font-size: 17px;
   font-weight: 500;
@@ -399,13 +401,12 @@ Navbar Area CSS
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
-  margin-left: 15px;
-  margin-right: 15px;
+
+  height: 100%;
 }
 .haiper-nav .navbar .navbar-nav .nav-item a:hover,
 .haiper-nav .navbar .navbar-nav .nav-item a:focus,
 .haiper-nav .navbar .navbar-nav .nav-item a.active {
-  background-color: #eee8f8;
   color: #fff;
 }
 .haiper-nav .navbar .navbar-nav .nav-item a i {
@@ -1123,7 +1124,7 @@ Navbar Area CSS
   width: 100%;
   height: auto;
   z-index: 999;
-  background-color: transparent;
+  background-color: #fff;
   transition: 0.5s;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -1702,7 +1703,7 @@ Navbar Area CSS
   .navbar-nav
   .nav-item.active
   a {
-  color: #9300fc;
+  color: #000;
 }
 .navbar-area.navbar-style-two
   .haiper-nav
@@ -8435,7 +8436,34 @@ Footer Area CSS
 .profile-main-content {
   max-width: 1440px;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 124px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.profile-description-container {
+  width: 100%;
+  background-color: #fff;
+}
+
+.profile-description-container .description {
+  padding: 24px 32px;
+}
+
+.profile-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.details-description {
+  font-weight: 500;
+  color: #8a8a8a;
+}
+
+.details-description-value {
+  color: #000;
+  font-size: 20px;
 }
 
 .sidebar-container {
@@ -8451,6 +8479,111 @@ Footer Area CSS
 .sidebar-container div {
   padding: 15px;
   border-radius: 4px;
+}
+
+.others-options-name {
+  display: flex;
+  gap: 16px;
+  padding: 15px;
+  border-radius: 4px;
+  border: none;
+}
+
+.others-options-name p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #292d32;
+}
+
+.others-options-name-active {
+  background: #eee8f8;
+}
+
+.sidebar-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: transparent;
+  border: none;
+  padding: 15px;
+}
+
+.sidebar-links:hover {
+  cursor: pointer;
+  background-color: #eee8f8;
+}
+
+.sidebar-links-active,
+.profile-nav-link-active {
+  background-color: #eee8f8;
+}
+
+.profile-nav-container {
+  display: none;
+}
+
+.profile-nav-link {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 16px;
+}
+
+.profile-nav-link:hover {
+  background-color: #eee8f8;
+}
+
+.navbar-buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-buttons-container button {
+  border: none;
+  background: transparent;
+}
+
+.user-menu-navbar-button {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-nav-container {
+    display: block;
+  }
+
+  .user-menu-navbar-button {
+    display: block;
+  }
+
+  .profile-main-content {
+    width: 100%;
+  }
+
+  .profile-details {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar-container {
+    display: none;
+  }
+
+  .others-options-name {
+    padding-top: 6px;
+    background: transparent;
+    border: none;
+    display: none;
+  }
+  .others-options-name p {
+    display: none;
+  }
+
+  .others-options-name-active {
+    background: transparent;
+  }
 }
 
 .get_your_acc{
