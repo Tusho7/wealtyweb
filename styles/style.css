@@ -164,15 +164,10 @@ p:last-child {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   border-radius: 4px;
   transition: 0.5s;
 }
-
 
 .btn-primary::after {
   content: "";
@@ -272,11 +267,7 @@ Preloader Area CSS
   width: 100%;
   height: 100%;
   z-index: 99999;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   top: 0;
   left: 0;
 }
@@ -387,6 +378,7 @@ Navbar Area CSS
 .haiper-nav .navbar .navbar-nav .nav-item {
   position: relative;
   /* padding: 15px; */
+  border-radius: 4px;
 }
 
 .haiper-nav .navbar .navbar-nav .nav-item:hover {
@@ -439,10 +431,10 @@ Navbar Area CSS
   visibility: hidden;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
-  padding-top: 15px;
+  /* padding-top: 15px; */
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
 }
 .haiper-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
   padding-left: 0;
@@ -2398,11 +2390,7 @@ Main Banner Area CSS
 .money-transfer-form form .form-group {
   margin-bottom: 15px;
   position: relative;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   padding: 36px 10px 12px 15px;
   border-radius: 5px;
 }
@@ -2487,11 +2475,7 @@ Main Banner Area CSS
 .money-transfer-form form .currency-info .bar {
   height: 100%;
   width: 2px;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   position: absolute;
   left: 0;
   top: 50%;
@@ -2505,11 +2489,7 @@ Main Banner Area CSS
   position: absolute;
   top: -1px;
   left: -2px;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
 }
 .money-transfer-form form .currency-info .bar::after {
   width: 6px;
@@ -2519,11 +2499,7 @@ Main Banner Area CSS
   position: absolute;
   bottom: -1px;
   left: -2px;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
 }
 .money-transfer-form form .currency-info span {
   display: inline-block;
@@ -2554,11 +2530,7 @@ Main Banner Area CSS
 }
 
 .money-transfer-form form .btn::after {
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
 }
 .money-transfer-form form .terms-info {
   margin-top: 15px;
@@ -2668,11 +2640,7 @@ Main Banner Area CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   border-radius: 30px;
   transition: 0.5s;
   opacity: 0;
@@ -2798,11 +2766,7 @@ About Area CSS
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   z-index: -1;
   border-radius: 50%;
   transition: 0.5s;
@@ -2907,11 +2871,7 @@ Featured Boxes Area CSS
   width: 0;
   transition: 0.5s;
   height: 1px;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
 }
 .single-featured-box .read-more-btn:hover::before {
   width: 100%;
@@ -3069,11 +3029,7 @@ Services Area CSS
   width: 0;
   height: 100%;
   border-radius: 5px;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   transition: 0.5s;
 }
 .overview-box .overview-content .content .services-list li span:hover {
@@ -3183,11 +3139,7 @@ Comparisons Area CSS
   text-align: center;
 }
 .comparisons-table table thead tr {
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
 }
 .comparisons-table table thead th {
   vertical-align: middle;
@@ -3327,11 +3279,7 @@ Features Area CSS
   z-index: -1;
   width: 0;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   border-radius: 5px;
   transition: 0.5s;
 }
@@ -3429,11 +3377,7 @@ Features Area CSS
   z-index: -1;
   width: 2px;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   transition: 0.5s;
 }
 .features-box:hover {
@@ -3852,11 +3796,7 @@ Pricing Area CSS
   font-size: 12px;
 }
 .single-pricing-box:hover .pricing-header::after {
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   content: "";
   position: absolute;
   left: 0;
@@ -3866,21 +3806,13 @@ Pricing Area CSS
   transition: 0.5s;
 }
 .single-pricing-box:hover .buy-btn .btn-primary::after {
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   opacity: 1;
   visibility: visible;
 }
 
 .single-pricing-box.active .pricing-header::after {
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   content: "";
   position: absolute;
   left: 0;
@@ -3890,11 +3822,7 @@ Pricing Area CSS
   transition: 0.5s;
 }
 .single-pricing-box.active .buy-btn .btn-primary::before {
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   content: "";
   position: absolute;
   left: 0;
@@ -4221,11 +4149,7 @@ App Download Area CSS
   height: 100%;
   border-radius: 3px;
   z-index: -1;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   transition: 0.5s;
 }
 .app-download-content .btn-box .app-store-btn::after {
@@ -4287,11 +4211,7 @@ App Download Area CSS
   height: 100%;
   border-radius: 3px;
   z-index: -1;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
@@ -4327,7 +4247,7 @@ Account Create Area CSS
 .account-create-area {
   position: relative;
   z-index: 1;
-  background-color: #070D13;
+  background-color: #070d13;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -5043,11 +4963,7 @@ Pagination Area CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
@@ -5086,11 +5002,7 @@ Widget Sidebar Area CSS
 .widget-area .widget .widget-title::before {
   content: "";
   position: absolute;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   bottom: -1px;
   left: 0;
   width: 50px;
@@ -5143,11 +5055,7 @@ Widget Sidebar Area CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   top: 0;
   transition: 0.5s;
 }
@@ -5386,11 +5294,7 @@ Widget Sidebar Area CSS
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   z-index: -1;
   opacity: 0;
   visibility: hidden;
@@ -5949,11 +5853,7 @@ Contact Area CSS
   right: 0;
   top: 0;
   bottom: 0;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   border-radius: 50%;
   margin: 5px;
   z-index: -1;
@@ -6234,11 +6134,7 @@ Go Top CSS
   cursor: pointer;
   bottom: 15px;
   right: 15px;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   z-index: 4;
   width: 40px;
   text-align: center;
@@ -6404,11 +6300,7 @@ Payment Experience Area CSS
   bottom: 0;
   width: 100%;
   height: 1px;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   transition: 0.5s;
 }
 .payment-experience-content .link-btn:hover::before {
@@ -6668,11 +6560,7 @@ Global Area CSS
   border-radius: 2px;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   transition: 0.5s;
 }
 .global-content ul li:hover::before {
@@ -6838,11 +6726,7 @@ Payment Features Area CSS
   bottom: 0;
   width: 100%;
   height: 1px;
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   transition: 0.5s;
 }
 .payment-features-overview
@@ -8586,24 +8470,27 @@ Footer Area CSS
   }
 }
 
-.get_your_acc{
-  background: linear-gradient(
-    90deg,
-    #ff06ff 0%,
-    #4f008c 100%
-  );
+.get_your_acc {
+  background: linear-gradient(90deg, #ff06ff 0%, #4f008c 100%);
   background-color: transparent;
   color: #ffffff;
   transition: 0.5s;
 }
 
-.get_your_acc:hover{
-  background: linear-gradient(
-    90deg,
-    #4f008c 0%,
-    #ff06ff 100%
-  );
+.get_your_acc:hover {
+  background: linear-gradient(90deg, #4f008c 0%, #ff06ff 100%);
   background-color: transparent;
   color: white;
   transition: 0.5s;
+}
+
+.navbar-link {
+  padding: 13px 30px;
+  font-size: 16px;
+  color: #000;
+  border-radius: 4px;
+}
+
+.navbar-link:hover {
+  color: #000;
 }

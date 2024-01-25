@@ -89,12 +89,12 @@ const Navbar = () => {
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav">
                   <Link href="/" className={`nav-item`}>
-                    <li className={`nav-link`}>მთავარი</li>
+                    <li className={`navbar-link`}>მთავარი</li>
                   </Link>
 
                   <Link href="/about-us/" className="nav-item">
                     <li
-                      className={`nav-link ${
+                      className={`navbar-link ${
                         currentPath == "/about-us/" && "active"
                       }`}
                     >
@@ -104,7 +104,7 @@ const Navbar = () => {
 
                   <Link href="/pricing/" className="nav-item">
                     <li
-                      className={`nav-link ${
+                      className={`navbar-link ${
                         currentPath == "/pricing/" && "active"
                       }`}
                     >
@@ -113,12 +113,12 @@ const Navbar = () => {
                   </Link>
 
                   <Link href="/" className="nav-item">
-                    <li className="nav-link">ბლოგი</li>
+                    <li className="navbar-link">ბლოგი</li>
                   </Link>
 
                   <Link href="/contact/" className="nav-item">
                     <li
-                      className={`nav-link ${
+                      className={` navbar-link ${
                         currentPath == "/contact/" && "active"
                       }`}
                     >
