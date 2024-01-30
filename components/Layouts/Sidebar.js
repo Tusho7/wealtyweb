@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { removeUser } from "../../store/credentialsSlice";
-import SidebarItem from "./SidebarItem";
+import Link from "next/link";
 import { logout } from "../../services/logout";
 
 const Sidebar = () => {
