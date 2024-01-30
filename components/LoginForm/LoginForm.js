@@ -25,9 +25,10 @@ const LoginForm = () => {
   const onSubmit = async (credentials) => {
     const response = await login(credentials);
     if (response.status === 200) {
-      Cookies.set("authToken", response.data.Token);
+      console.log(response.data);
       dispatch(addUser(response.data));
-      router.push("/profile/" + response.data.CustomerId);
+      window.localStorage.setItem("authToken", JSON.stringify(response.data));
+      router.push("/profile/" + response.data.customerId);
     }
   };
 

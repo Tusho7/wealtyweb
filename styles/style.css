@@ -8326,18 +8326,28 @@ Footer Area CSS
   gap: 32px;
 }
 
-.profile-description-container {
+.profile-description-container,
+.transaction-description-container {
   width: 100%;
   background-color: #fff;
 }
 
-.profile-description-container .description {
+.profile-description-container .description,
+.transaction-description-container .description {
   padding: 24px 32px;
 }
 
-.profile-details {
+.profile-details,
+.transaction-details {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.profile-details p,
+.transaction-details p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .details-description {
@@ -8446,7 +8456,7 @@ Footer Area CSS
     width: 100%;
   }
 
-  .profile-details {
+  .profile-details, .transaction-details {
     display: grid;
     grid-template-columns: 1fr;
   }

@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import Cookies from "js-cookie";
 
 const initialState = {
   firstName: "",
@@ -40,8 +39,6 @@ export const credentialsSlice = createSlice({
       state.phoneNumber = "";
       state.customerId = "";
       state.email = "";
-      state.token = "";
-      Cookies.remove("authToken");
     },
   },
 });

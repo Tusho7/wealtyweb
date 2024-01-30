@@ -7,7 +7,9 @@ export const login = async (credentials) => {
   const response = await axios.post(
     process.env.NEXT_PUBLIC_URL + "api/customerController/login",
     formData,
-    { headers: { "Content-Type": "multipart/form-data" } }
+    {
+      headers: { "Content-Type": "multipart/form-data" },
+    }
   );
 
   return response;
