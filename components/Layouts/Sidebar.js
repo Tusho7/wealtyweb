@@ -1,13 +1,15 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { removeUser } from "../../store/credentialsSlice";
+import Link from "next/link";
 
 const Sidebar = () => {
   const [currentPath, setCurrentPath] = useState("");
   const router = useRouter();
   const dispatch = useDispatch();
+  const user = useSelector((state) => state.credentials);
 
   useEffect(() => {
     setCurrentPath(router.asPath);
@@ -20,15 +22,16 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar-container">
-      <div
+      <Link
+        href={"/profile/" + user.customerId}
         className={`sidebar-links ${
           currentPath.includes("/profile/") && "sidebar-links-active"
         }`}
       >
         <Image src="/images/user.svg" alt="user" width={24} height={24} />
         პროფილი
-      </div>
-      <div className="sidebar-links">
+      </Link>
+      <Link href="/transactions" className="sidebar-links">
         <Image
           src="/images/refresh-circle.svg"
           alt="transaction icon"
@@ -36,7 +39,7 @@ const Sidebar = () => {
           height={24}
         />
         ტრანზაქცია
-      </div>
+      </Link>
       <button className="sidebar-links" onClick={handleLogout}>
         <Image src="/images/logout.svg" alt="logout" width={24} height={24} />
         გასვლა

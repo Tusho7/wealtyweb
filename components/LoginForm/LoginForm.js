@@ -27,7 +27,7 @@ const LoginForm = () => {
     if (response.status === 200) {
       Cookies.set("authToken", response.data.Token);
       dispatch(addUser(response.data));
-      router.push("/profile/" + response.data.CustomerId);
+      router.push("/profile/" + response.data.customerId);
     }
   };
 
